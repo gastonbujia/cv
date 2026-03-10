@@ -41,11 +41,15 @@ Data Scientist y Neurocientífico con enfoque interdisciplinario, cursando la et
 *   Aplicación de herramientas de Ciencia de Datos para resolver problemáticas sociales.
 *   Desarrollo de pipelines de **Web Scraping** para extraer, analizar y consolidar una base de datos de precios de alquileres temporales, evaluando el impacto económico en la Patagonia Argentina.
 
-### Creador de Contenido Educativo & Docente en Data Science
-**freeCodeCamp, NeuroTransmitiendo, Instituto Humai, UBA & Sociedad Argentina de Investigación en Neurociencias (SAN)** | *2021 - Actualidad*
+### Docente en Data Science & Programación
+**NeuroTransmitiendo, Instituto Humai, UBA, Instituto CPE & Sociedad Argentina de Investigación en Neurociencias (SAN)** | *2021 - Actualidad*
 
-*   **Docencia en Machine Learning:** Docente en la Diplomatura en Neurociencias Cognitivas (NeuroTransmitiendo). Docente auxiliar en "Taller de Tesis I" (Maestría en Data Mining, UBA).
-*   **Docencia en Programación:** Docente y desarrollador de material en cursos de Python (**Instituto Humai**). Instructor de *Data Wrangling* y Visualización con Python (Instituto CPE), y del curso "Análisis y visualización de datos con Python" (SAN 2022).
+*   **Docencia en Machine Learning:** Docente en la Diplomatura en Neurociencias Cognitivas (NeuroTransmitiendo). Docente auxiliar en el "Taller de Tesis I" (Maestría en Data Mining, UBA).
+*   **Docencia en Programación:** Docente y desarrollador de material en cursos de Python (**Instituto Humai**). Instructor de *Data Wrangling* y *Visualización de datos con Python* (**Instituto CPE**, remoto, Uruguay), y del curso "Análisis y visualización de datos con Python" (**SAN** 2022).
+
+### Creador de Contenido Educativo & Tech Writer
+**freeCodeCamp & Publicaciones Independientes** | *2021 - Actualidad*
+
 *   **freeCodeCamp:** Primer colaborador externo del canal de YouTube en español. Creación del curso completo de [Web Scraping con Python y BeautifulSoup](https://github.com/GEJ1/web_scraping_freecodecamp).
 *   **Divulgación:** Autor activo de artículos técnicos en Medium y Substack sobre Python interactivo, NLP (ej. buscadores semánticos con Streamlit), y tutoriales de programación.
 
@@ -72,8 +76,6 @@ Data Scientist y Neurocientífico con enfoque interdisciplinario, cursando la et
 
 ---
 
-
-
 ## Producción Científica Seleccionada
 
 *(Para la lista completa de papers y pósters referirse a Google Scholar)*
@@ -96,7 +98,7 @@ Data Scientist y Neurocientífico con enfoque interdisciplinario, cursando la et
 *   **Ingeniería y Análisis de Datos:** Web Scraping (BeautifulSoup, automatización), APIs, preprocesamiento de grandes volúmenes de datos.
 *   **Herramientas y Frameworks de Desarrollo:** Git/GitHub, Jupyter Notebooks, Google Colab, Streamlit, jsPsych.
 *   **Especialidades de Dominio:** Eye-tracking, Análisis de Señales (EEG, trayectorias temporales), Diseño de Experimentos Online.
-*   **Idiomas:** Inglés (Avanzado escrito, Intermedio oral), Español (Nativo).
+*   **Idiomas:** Inglés (Avanzado), Español (Nativo).
 
 ---
 *Buenos Aires, Argentina | Disponibilidad para relocalización/remoto según conveniencia.*
