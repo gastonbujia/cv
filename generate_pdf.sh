@@ -1,5 +1,8 @@
 #!/bin/bash
 
+echo "🔄 Construyendo archivos Markdown desde cv_data.yaml..."
+python3 src/build_cv.py
+
 echo "🔄 Generando CVs en progreso..."
 
 # Generar PDF clásico del CV con Pandoc (Español)

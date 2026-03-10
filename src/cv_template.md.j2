@@ -1,0 +1,65 @@
+# {{ contact.name }}
+**{{ titles[lang] }}**
+
+{{ contact.email }} | [LinkedIn]({{ contact.linkedin }}) | [GitHub]({{ contact.github }}) | [Website]({{ contact.website }}) | [Google Scholar]({{ contact.scholar }})
+
+---
+
+## {{ headers.profile[lang] }}
+
+{{ profile[lang] }}
+
+---
+
+## {{ headers.experience[lang] }}
+
+{% for job in experience %}
+### {{ job.title[lang] }}
+**{{ job.company[lang] }}** | *{{ job.period[lang] if job.period is mapping else job.period }}*
+
+{% for hl in job.highlights[lang] %}
+*   {{ hl }}
+{% endfor %}
+
+{% endfor %}
+---
+
+## {{ headers.education[lang] }}
+
+{% for edu in education.primary %}
+*   {{ edu.title[lang] }}
+    * {{ edu.description[lang] }}
+{% endfor %}
+
+{{ education.additional_header[lang] }}
+
+{% for edu in education.additional %}
+*   {{ edu[lang] }}
+{% endfor %}
+
+{{ education.mentorship_header[lang] }}
+
+{% for mentor in education.mentorship %}
+*   {{ mentor[lang] }}
+{% endfor %}
+
+---
+
+## {{ headers.publications[lang] }}
+
+{{ publications_header[lang] }}
+
+{% for pub in publications %}
+{{ loop.index }}.  {{ pub[lang] }}
+{% endfor %}
+
+---
+
+## {{ headers.skills[lang] }}
+
+{% for skill in skills %}
+*   {{ skill[lang] }}
+{% endfor %}
+
+---
+*{{ contact.location[lang] }}*
