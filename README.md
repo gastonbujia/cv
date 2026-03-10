@@ -10,8 +10,8 @@ The pipeline separates content data from layout and design, ensuring that as new
 - `src/cv_template.md.j2`: The Jinja2 template dictating the layout of the Markdown file.
 - `src/build_cv.py`: Python script that reads the YAML data and renders the template to produce the English and Spanish Markdown files.
 - `generate_pdf.sh`: Main executable script. Runs the Python build and then uses Pandoc to generate the final PDFs.
-- `src/CV_Gustavo_Juantorena_2026.md`: Auto-generated Spanish Markdown output.
-- `src/english/CV_Gustavo_Juantorena_2026_EN.md`: Auto-generated English Markdown output.
+- `src/CV_Gustavo_Juantorena.md`: Auto-generated Spanish Markdown output.
+- `src/english/CV_Gustavo_Juantorena_EN.md`: Auto-generated English Markdown output.
 - `output/`: Directory where the final PDF files are generated.
 
 ## Requirements

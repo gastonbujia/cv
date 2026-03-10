@@ -6,8 +6,8 @@ import os
 SRC_DIR = os.path.dirname(os.path.abspath(__file__))
 DATA_FILE = os.path.join(SRC_DIR, "cv_data.yaml")
 TEMPLATE_FILE = "cv_template.md.j2"
-OUT_ES = os.path.join(SRC_DIR, "CV_Gustavo_Juantorena_2026.md")
-OUT_EN = os.path.join(SRC_DIR, "english", "CV_Gustavo_Juantorena_2026_EN.md")
+OUT_ES = os.path.join(SRC_DIR, "CV_Gustavo_Juantorena.md")
+OUT_EN = os.path.join(SRC_DIR, "english", "CV_Gustavo_Juantorena_EN.md")
 
 def build_cvs():
     # Load YAML data
