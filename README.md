@@ -58,6 +58,13 @@ This command will:
 1. Run `build_cv.py` to rewrite the `.md` files based on the latest `cv_data.yaml`.
 2. Execute Pandoc to convert the newly built Markdown files into high-quality PDFs placed in the `output/` directory.
 
+On Windows/PowerShell, use:
+
+```powershell
+python -m pip install -r requirements.txt
+.\generate_pdf.ps1
+```
+
 ## Automated CI/CD (GitHub Actions)
 
 This repository includes a GitHub Actions workflow (`.github/workflows/generate_cv.yml`) that completely automates CV generation.
