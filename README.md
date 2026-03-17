@@ -9,8 +9,9 @@ The active generation flow is Markdown -> Pandoc -> LaTeX -> PDF. The generated 
 ## Repository Structure
 
 - `src/cv_data.yaml`: **The source of truth.** All CV content resides here.
+- `src/publications.bib`: Source of truth for the publications list.
 - `src/cv_template.md.j2`: The Jinja2 template dictating the layout of the Markdown file.
-- `src/build_cv.py`: Python script that reads the YAML data and renders the template to produce the English and Spanish Markdown files.
+- `src/build_cv.py`: Python script that reads the YAML data, loads `publications.bib`, and renders the template to produce the English and Spanish Markdown files.
 - `generate_pdf.sh`: Main executable script. Runs the Python build and then uses Pandoc to generate the final PDFs.
 - `src/CV_Gaston_Bujia.md`: Auto-generated Spanish Markdown output.
 - `src/english/CV_Gaston_Bujia_EN.md`: Auto-generated English Markdown output.
@@ -33,6 +34,8 @@ To update or add new items to the CV, you **do not** need to edit the separate M
 2. Locate the section you wish to update (e.g., `experience`, `education`, `skills`).
 3. Add or modify the data. For text that varies by language, ensure both `en` and `es` keys are populated.
 4. Save the file.
+
+Publications are maintained separately in `src/publications.bib` and injected automatically during the build.
 
 *Example item format:*
 ```yaml
