@@ -7,7 +7,7 @@ gastonbujia@gmail.com | gbujia@dc.uba.ar | [LinkedIn](https://www.linkedin.com/i
 
 ## Perfil Profesional
 
-Doctorando en Ciencias de la Computación en la UBA y becario doctoral de CONICET, con un perfil centrado en la docencia universitaria y la investigación académica. Trabajo en el Laboratorio de Inteligencia Artificial Aplicada sobre modelos computacionales de movimientos oculares durante tareas de búsqueda visual en escenas naturales. Mi trabajo combina Machine Learning, modelado bayesiano y neurociencia computacional, junto con actividad docente sostenida en materias de grado y posgrado de la UBA.
+Docente universitario y doctorando en Ciencias de la Computación en la UBA, con más de diez años de experiencia docente en materias de grado y posgrado. Actualmente soy becario doctoral de CONICET y trabajo en el Laboratorio de Inteligencia Artificial Aplicada sobre modelos computacionales de movimientos oculares durante tareas de búsqueda visual en escenas naturales. Mi perfil académico combina una actividad docente sostenida con investigación en Machine Learning, modelado bayesiano y neurociencia computacional. Actualmente, soy Research Data Scientist en Everything ALS, trabajando en análisis orientado a datos en el contexto de esclerosis lateral amiotrófica.
 
 ---
 
@@ -31,8 +31,6 @@ Doctorando en Ciencias de la Computación en la UBA y becario doctoral de CONICE
 *   **Ayudante de 1ra** regular por concurso en **Organización del Computador** entre agosto de 2021 y diciembre de 2023.
 
 *   Experiencia docente universitaria previa de grado en **Matemática (CBC UBA)** entre 2013 y 2021.
-
-*   Todos los cargos detallados arriba corresponden a materias de grado.
 
 
 
@@ -120,23 +118,19 @@ Doctorando en Ciencias de la Computación en la UBA y becario doctoral de CONICE
 
 ---
 
-## Distinciones y Formación Complementaria
+## Distinciones
 
-*Distinciones y formación complementaria seleccionada:*
+
 
 
 *   **Beca Interna Doctoral CONICET** (2018 - 2024). Director: Dr. Juan Kamienkowski.
-
-*   **Cursos destacados de Ciencias de la Computación:** Aprendizaje Automático, Procesamiento del Habla, Ingeniería de Software II, Base de Datos, Sistemas Operativos, Probabilidad y Estadística.
-
-*   **Áreas de investigación:** inteligencia artificial, software, estadística bayesiana y neurociencia computacional.
 
 
 ---
 
 ## Producción Científica Seleccionada
 
-*(Top 5 seleccionado, generado automáticamente desde `src/publications.bib` durante la compilación)*
+
 
 
 1.  Ruarte, G., **Bujia, G.**, Care, D., Ison, M. J., & Kamienkowski, J. E. (2025). *Integrating Bayesian and neural networks models for eye movement prediction in hybrid search.* En **Scientific Reports**, 15(1), 16482.
@@ -155,11 +149,15 @@ Doctorando en Ciencias de la Computación en la UBA y becario doctoral de CONICE
 ## Habilidades Técnicas
 
 
-*   **Áreas de trabajo:** eye tracking, búsqueda visual, Machine Learning, neurociencia computacional, modelado bayesiano.
+*   **Stack científico en Python:** Python, NumPy, Pandas, Matplotlib, SciPy, scikit-learn y Jupyter Notebooks.
 
-*   **Software y métodos:** Python, Jupyter, computación científica, modelado computacional, benchmarking de modelos cognitivos.
+*   **Machine Learning y modelado:** PyTorch, TensorFlow, modelado bayesiano, eye tracking y modelado computacional.
 
-*   **Áreas de docencia:** Aprendizaje Automático, organización y arquitectura de computadoras, enseñanza de grado y posgrado.
+*   **Visualización y materiales de enseñanza:** Matplotlib, Seaborn, Plotly y Jupyter Notebooks como herramienta pedagógica.
+
+*   **Herramientas y flujos de trabajo:** Git, GitHub, LaTeX y desarrollo de repositorios reproducibles para cursos.
+
+*   **Áreas de docencia:** Aprendizaje Automático, estadística computacional, organización y arquitectura de computadoras, y enseñanza de grado y posgrado.
 
 *   **Idiomas:** Español (nativo), Inglés (competencia profesional).
 

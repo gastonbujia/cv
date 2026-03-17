@@ -54,7 +54,9 @@
 
 ## {{ headers.additional_academic[lang] }}
 
+{% if education.additional_header[lang] %}
 {{ education.additional_header[lang] }}
+{% endif %}
 
 {% for edu in education.additional %}
 *   {{ edu[lang] }}
@@ -64,7 +66,9 @@
 
 ## {{ headers.publications[lang] }}
 
+{% if publications_header[lang] %}
 {{ publications_header[lang] }}
+{% endif %}
 
 {% for pub in publications %}
 {{ loop.index }}.  {{ pub[lang] }}

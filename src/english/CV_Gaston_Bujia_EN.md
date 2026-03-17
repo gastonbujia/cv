@@ -7,7 +7,7 @@ gastonbujia@gmail.com | gbujia@dc.uba.ar | [LinkedIn](https://www.linkedin.com/i
 
 ## Professional Profile
 
-Ph.D. candidate in Computer Science at UBA and CONICET doctoral fellow, with a profile centered on university teaching and academic research. I work at the Applied Artificial Intelligence Lab on computational models of eye movements during visual search in natural scenes. My work combines Machine Learning, Bayesian modeling, and computational neuroscience, alongside sustained teaching in undergraduate and graduate courses at UBA.
+University instructor and Ph.D. candidate in Computer Science at UBA, with more than ten years of teaching experience across undergraduate and graduate courses. I am currently a doctoral fellow and work at the Applied Artificial Intelligence Lab on computational models of eye movements during visual search in natural scenes. My academic profile combines sustained teaching activity with research in Machine Learning, Bayesian modeling, and computational neuroscience. Currently, I am a Research Data Scientist at Everything ALS, working on data-driven analysis in the context of amyotrophic lateral sclerosis.
 
 ---
 
@@ -31,8 +31,6 @@ Ph.D. candidate in Computer Science at UBA and CONICET doctoral fellow, with a p
 *   **Teaching Assistant** in **Computer Organization**, appointed through competitive examination, from August 2021 to December 2023.
 
 *   Previous undergraduate teaching experience in **Mathematics (CBC UBA)** between 2013 and 2021.
-
-*   All appointments listed above correspond to undergraduate teaching.
 
 
 
@@ -120,23 +118,19 @@ Ph.D. candidate in Computer Science at UBA and CONICET doctoral fellow, with a p
 
 ---
 
-## Distinctions and Additional Training
+## Distinctions
 
-*Selected distinctions and coursework:*
+
 
 
 *   **CONICET Internal Doctoral Fellowship** (2018 - 2024). Advisor: Dr. Juan Kamienkowski.
-
-*   **Selected Computer Science coursework:** Machine Learning, Speech Processing, Software Engineering II, Databases, Operating Systems, Probability and Statistics.
-
-*   **Research areas:** Artificial Intelligence, computer software, Bayesian statistics, computational neuroscience.
 
 
 ---
 
 ## Selected Scientific Production
 
-*(Selected top 5, generated automatically from `src/publications.bib` during the build)*
+
 
 
 1.  Ruarte, G., **Bujia, G.**, Care, D., Ison, M. J., & Kamienkowski, J. E. (2025). *Integrating Bayesian and neural networks models for eye movement prediction in hybrid search.* In **Scientific Reports**, 15(1), 16482.
@@ -155,11 +149,15 @@ Ph.D. candidate in Computer Science at UBA and CONICET doctoral fellow, with a p
 ## Technical Skills
 
 
-*   **Research Areas:** eye tracking, visual search, Machine Learning, computational neuroscience, Bayesian modeling.
+*   **Scientific Python stack:** Python, NumPy, Pandas, Matplotlib, SciPy, scikit-learn, and Jupyter Notebooks.
 
-*   **Software and Methods:** Python, Jupyter, scientific computing, computational modeling, benchmarking of cognitive models.
+*   **Machine Learning and modeling:** PyTorch, TensorFlow, Bayesian modeling, eye tracking, and computational modeling.
 
-*   **Teaching Areas:** Machine Learning, computer organization and architecture, undergraduate and graduate instruction.
+*   **Visualization and teaching materials:** Matplotlib, Seaborn, Plotly, and Jupyter Notebooks as a pedagogical tool.
+
+*   **Tools and workflows:** Git, GitHub, LaTeX, and development of reproducible course repositories.
+
+*   **Teaching areas:** Machine Learning, computational statistics, computer organization and architecture, undergraduate and graduate instruction.
 
 *   **Languages:** Spanish (native), English (professional working proficiency).
 

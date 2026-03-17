@@ -25,8 +25,8 @@ headers:
     en: "Education"
     es: "Educación"
   additional_academic:
-    en: "Distinctions and Additional Training"
-    es: "Distinciones y Formación Complementaria"
+    en: "Distinctions"
+    es: "Distinciones"
   publications:
     en: "Selected Scientific Production"
     es: "Producción Científica Seleccionada"
@@ -35,8 +35,8 @@ headers:
     es: "Habilidades Técnicas"
 
 profile:
-  en: "Ph.D. candidate in Computer Science at UBA and CONICET doctoral fellow, with a profile centered on university teaching and academic research. I work at the Applied Artificial Intelligence Lab on computational models of eye movements during visual search in natural scenes. My work combines Machine Learning, Bayesian modeling, and computational neuroscience, alongside sustained teaching in undergraduate and graduate courses at UBA."
-  es: "Doctorando en Ciencias de la Computación en la UBA y becario doctoral de CONICET, con un perfil centrado en la docencia universitaria y la investigación académica. Trabajo en el Laboratorio de Inteligencia Artificial Aplicada sobre modelos computacionales de movimientos oculares durante tareas de búsqueda visual en escenas naturales. Mi trabajo combina Machine Learning, modelado bayesiano y neurociencia computacional, junto con actividad docente sostenida en materias de grado y posgrado de la UBA."
+  en: "University instructor and Ph.D. candidate in Computer Science at UBA, with more than ten years of teaching experience across undergraduate and graduate courses. I am currently a doctoral fellow and work at the Applied Artificial Intelligence Lab on computational models of eye movements during visual search in natural scenes. My academic profile combines sustained teaching activity with research in Machine Learning, Bayesian modeling, and computational neuroscience. Currently, I am a Research Data Scientist at Everything ALS, working on data-driven analysis in the context of amyotrophic lateral sclerosis."
+  es: "Docente universitario y doctorando en Ciencias de la Computación en la UBA, con más de diez años de experiencia docente en materias de grado y posgrado. Actualmente soy becario doctoral de CONICET y trabajo en el Laboratorio de Inteligencia Artificial Aplicada sobre modelos computacionales de movimientos oculares durante tareas de búsqueda visual en escenas naturales. Mi perfil académico combina una actividad docente sostenida con investigación en Machine Learning, modelado bayesiano y neurociencia computacional. Actualmente, soy Research Data Scientist en Everything ALS, trabajando en análisis orientado a datos en el contexto de esclerosis lateral amiotrófica."
 
 experience:
   - id: "university_teaching"
@@ -57,14 +57,12 @@ experience:
         - "**Teaching Assistant** in **Machine Learning**, appointed through competitive examination, from March 2024 to August 2024."
         - "**Teaching Assistant** in **Computer Organization**, appointed through competitive examination, from August 2021 to December 2023."
         - "Previous undergraduate teaching experience in **Mathematics (CBC UBA)** between 2013 and 2021."
-        - "All appointments listed above correspond to undergraduate teaching."
       es:
         - "**Jefe de Trabajos Prácticos** regular por concurso en **Aprendizaje Automático** entre agosto de 2024 y agosto de 2025."
         - "**Jefe de Trabajos Prácticos** regular por concurso en **Estadística Computacional** desde agosto de 2025 hasta la actualidad."
         - "**Ayudante de 1ra** regular por concurso en **Aprendizaje Automático** entre marzo de 2024 y agosto de 2024."
         - "**Ayudante de 1ra** regular por concurso en **Organización del Computador** entre agosto de 2021 y diciembre de 2023."
         - "Experiencia docente universitaria previa de grado en **Matemática (CBC UBA)** entre 2013 y 2021."
-        - "Todos los cargos detallados arriba corresponden a materias de grado."
 
   - id: "graduate_teaching"
     section: "teaching"
@@ -202,16 +200,12 @@ education:
         es: "Orientación en matemática aplicada. Tesis: *Sistemas de recomendación: Máquinas de factorización y el problema del arranque en frío.* Director: Dr. Leandro Lombardi."
 
   additional_header:
-    en: "*Selected distinctions and coursework:*"
-    es: "*Distinciones y formación complementaria seleccionada:*"
+    en: ""
+    es: ""
 
   additional:
     - en: "**CONICET Internal Doctoral Fellowship** (2018 - 2024). Advisor: Dr. Juan Kamienkowski."
       es: "**Beca Interna Doctoral CONICET** (2018 - 2024). Director: Dr. Juan Kamienkowski."
-    - en: "**Selected Computer Science coursework:** Machine Learning, Speech Processing, Software Engineering II, Databases, Operating Systems, Probability and Statistics."
-      es: "**Cursos destacados de Ciencias de la Computación:** Aprendizaje Automático, Procesamiento del Habla, Ingeniería de Software II, Base de Datos, Sistemas Operativos, Probabilidad y Estadística."
-    - en: "**Research areas:** Artificial Intelligence, computer software, Bayesian statistics, computational neuroscience."
-      es: "**Áreas de investigación:** inteligencia artificial, software, estadística bayesiana y neurociencia computacional."
 
   mentorship_header:
     en: "**Thesis Co-supervision and Research Mentorship:**"
@@ -228,18 +222,22 @@ education:
       es: "**Fermín Travi:** beca de iniciación a la investigación sobre modelos computacionales de búsqueda visual humana (2021)."
 
 publications_header:
-  en: "*(Selected top 5, generated automatically from `src/publications.bib` during the build)*"
-  es: "*(Top 5 seleccionado, generado automáticamente desde `src/publications.bib` durante la compilación)*"
+  en: ""
+  es: ""
 
 publications: []
 
 skills:
-  - en: "**Research Areas:** eye tracking, visual search, Machine Learning, computational neuroscience, Bayesian modeling."
-    es: "**Áreas de trabajo:** eye tracking, búsqueda visual, Machine Learning, neurociencia computacional, modelado bayesiano."
-  - en: "**Software and Methods:** Python, Jupyter, scientific computing, computational modeling, benchmarking of cognitive models."
-    es: "**Software y métodos:** Python, Jupyter, computación científica, modelado computacional, benchmarking de modelos cognitivos."
-  - en: "**Teaching Areas:** Machine Learning, computer organization and architecture, undergraduate and graduate instruction."
-    es: "**Áreas de docencia:** Aprendizaje Automático, organización y arquitectura de computadoras, enseñanza de grado y posgrado."
+  - en: "**Scientific Python stack:** Python, NumPy, Pandas, Matplotlib, SciPy, scikit-learn, and Jupyter Notebooks."
+    es: "**Stack científico en Python:** Python, NumPy, Pandas, Matplotlib, SciPy, scikit-learn y Jupyter Notebooks."
+  - en: "**Machine Learning and modeling:** PyTorch, TensorFlow, Bayesian modeling, eye tracking, and computational modeling."
+    es: "**Machine Learning y modelado:** PyTorch, TensorFlow, modelado bayesiano, eye tracking y modelado computacional."
+  - en: "**Visualization and teaching materials:** Matplotlib, Seaborn, Plotly, and Jupyter Notebooks as a pedagogical tool."
+    es: "**Visualización y materiales de enseñanza:** Matplotlib, Seaborn, Plotly y Jupyter Notebooks como herramienta pedagógica."
+  - en: "**Tools and workflows:** Git, GitHub, LaTeX, and development of reproducible course repositories."
+    es: "**Herramientas y flujos de trabajo:** Git, GitHub, LaTeX y desarrollo de repositorios reproducibles para cursos."
+  - en: "**Teaching areas:** Machine Learning, computational statistics, computer organization and architecture, undergraduate and graduate instruction."
+    es: "**Áreas de docencia:** Aprendizaje Automático, estadística computacional, organización y arquitectura de computadoras, y enseñanza de grado y posgrado."
   - en: "**Languages:** Spanish (native), English (professional working proficiency)."
     es: "**Idiomas:** Español (nativo), Inglés (competencia profesional)."
 
