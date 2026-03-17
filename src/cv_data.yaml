@@ -32,8 +32,8 @@ headers:
     es: "Habilidades Técnicas"
 
 profile:
-  en: "Ph.D. candidate in Computer Science at UBA and CONICET doctoral fellow, with a profile centered on university teaching and academic research. I work between the Applied Artificial Intelligence Lab and the Rebeca Cherep de Guber Institute of Calculus on computational models of eye movements during visual search in natural scenes. My work combines Machine Learning, Bayesian modeling, and computational neuroscience, alongside sustained teaching in undergraduate and graduate courses at UBA."
-  es: "Doctorando en Ciencias de la Computación en la UBA y becario doctoral de CONICET, con un perfil centrado en la docencia universitaria y la investigación académica. Trabajo entre el Laboratorio de Inteligencia Artificial Aplicada y el Instituto de Cálculo Rebeca Cherep de Guber en modelos computacionales de movimientos oculares durante tareas de búsqueda visual en escenas naturales. Mi trabajo combina Machine Learning, modelado bayesiano y neurociencia computacional, junto con actividad docente sostenida en materias de grado y posgrado de la UBA."
+  en: "Ph.D. candidate in Computer Science at UBA and CONICET doctoral fellow, with a profile centered on university teaching and academic research. I work at the Applied Artificial Intelligence Lab on computational models of eye movements during visual search in natural scenes. My work combines Machine Learning, Bayesian modeling, and computational neuroscience, alongside sustained teaching in undergraduate and graduate courses at UBA."
+  es: "Doctorando en Ciencias de la Computación en la UBA y becario doctoral de CONICET, con un perfil centrado en la docencia universitaria y la investigación académica. Trabajo en el Laboratorio de Inteligencia Artificial Aplicada sobre modelos computacionales de movimientos oculares durante tareas de búsqueda visual en escenas naturales. Mi trabajo combina Machine Learning, modelado bayesiano y neurociencia computacional, junto con actividad docente sostenida en materias de grado y posgrado de la UBA."
 
 experience:
   - id: "university_teaching"
@@ -130,8 +130,8 @@ experience:
       en: "Graduate Researcher"
       es: "Investigador en Formación"
     company:
-      en: "LIAA / ICC / Rebeca Cherep de Guber Institute of Calculus (UBA-CONICET)"
-      es: "LIAA / ICC / Instituto de Cálculo Rebeca Cherep de Guber (UBA-CONICET)"
+      en: "Applied Artificial Intelligence Lab (UBA-CONICET)"
+      es: "Laboratorio de Inteligencia Artificial Aplicada (UBA-CONICET)"
     period:
       en: "2018 - Present"
       es: "2018 - Actualidad"
@@ -189,8 +189,8 @@ education:
         en: "**Ph.D. in Computer Science** | UBA (2018 - Present)"
         es: "**Doctorado en Ciencias de la Computación** | UBA (2018 - Actualidad)"
       description:
-        en: "Doctoral thesis on computational models of human visual search in natural scenes. Advisor: Dr. Juan Kamienkowski. Co-advisor: Guillermo Solovey."
-        es: "Tesis doctoral sobre modelos computacionales de búsqueda visual humana en escenas naturales. Director: Dr. Juan Kamienkowski. Codirector: Guillermo Solovey."
+        en: "Doctoral thesis titled *Computational aspects of human vision: prediction of eye movements during visual search*. Expected defense between July and August 2026. Advisor: Dr. Juan Kamienkowski. Co-advisor: Guillermo Solovey."
+        es: "Tesis doctoral titulada *Aspectos computacionales de la visión humana: predicción de movimientos oculares durante la búsqueda visual*. Fecha estimada de defensa: entre julio y agosto de 2026. Director: Dr. Juan Kamienkowski. Codirector: Guillermo Solovey."
     - title:
         en: "**B.Sc. in Mathematics** | UBA (2018)"
         es: "**Licenciatura en Matemática** | UBA (2018)"
