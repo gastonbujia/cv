@@ -24,6 +24,9 @@ headers:
   education:
     en: "Education"
     es: "Educación"
+  additional_academic:
+    en: "Distinctions and Additional Training"
+    es: "Distinciones y Formación Complementaria"
   publications:
     en: "Selected Scientific Production"
     es: "Producción Científica Seleccionada"
@@ -189,14 +192,14 @@ education:
         en: "**Ph.D. in Computer Science** | UBA (2018 - Present)"
         es: "**Doctorado en Ciencias de la Computación** | UBA (2018 - Actualidad)"
       description:
-        en: "Doctoral thesis titled *Computational aspects of human vision: prediction of eye movements during visual search*. Expected defense between July and August 2026. Advisor: Dr. Juan Kamienkowski. Co-advisor: Guillermo Solovey."
-        es: "Tesis doctoral titulada *Aspectos computacionales de la visión humana: predicción de movimientos oculares durante la búsqueda visual*. Fecha estimada de defensa: entre julio y agosto de 2026. Director: Dr. Juan Kamienkowski. Codirector: Guillermo Solovey."
+        en: "Doctoral thesis titled *Computational aspects of human vision: prediction of eye movements during visual search*. Expected defense between July and August 2026. Advisor: Dr. Juan Kamienkowski. Co-advisor: Dr. Guillermo Solovey."
+        es: "Tesis doctoral titulada *Aspectos computacionales de la visión humana: predicción de movimientos oculares durante la búsqueda visual*. Fecha estimada de defensa: entre julio y agosto de 2026. Director: Dr. Juan Kamienkowski. Codirector: Dr. Guillermo Solovey."
     - title:
         en: "**B.Sc. in Mathematics** | UBA (2018)"
         es: "**Licenciatura en Matemática** | UBA (2018)"
       description:
-        en: "Applied mathematics focus. Thesis: *Recommendation systems: Factorization Machines and the cold-start problem.* Advisor: Leandro Lombardi."
-        es: "Orientación en matemática aplicada. Tesis: *Sistemas de recomendación: Máquinas de factorización y el problema del arranque en frío.* Director: Leandro Lombardi."
+        en: "Applied mathematics focus. Thesis: *Recommendation systems: Factorization Machines and the cold-start problem.* Advisor: Dr. Leandro Lombardi."
+        es: "Orientación en matemática aplicada. Tesis: *Sistemas de recomendación: Máquinas de factorización y el problema del arranque en frío.* Director: Dr. Leandro Lombardi."
 
   additional_header:
     en: "*Selected distinctions and coursework:*"
