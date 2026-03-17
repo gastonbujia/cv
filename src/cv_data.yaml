@@ -1,17 +1,18 @@
 contact:
-  name: "Gaston Ezequiel Bujia"
-  email: "gBujia@gmail.com"
-  linkedin: "https://www.linkedin.com/in/Gaston-Bujia/"
-  github: "https://github.com/GEJ1"
-  website: "https://GastonBujia.com/"
-  scholar: "https://scholar.google.com/citations?user=gcAKY2IAAAAJ&hl=en"
-  location: 
-    en: "Buenos Aires, Argentina | Available for relocation/remote work pending convenience."
-    es: "Buenos Aires, Argentina | Disponibilidad para relocalización/remoto según conveniencia."
+  name: "Gaston Elian Bujia"
+  email: "gastonbujia@gmail.com"
+  academic_email: "gbujia@dc.uba.ar"
+  linkedin: "https://www.linkedin.com/in/gaston-bujia/"
+  github: "https://github.com/gastonbujia"
+  website: ""
+  scholar: "https://scholar.google.com/citations?user=4v94_skAAAAJ&hl=en"
+  location:
+    en: "Buenos Aires, Argentina"
+    es: "Buenos Aires, Argentina"
 
 titles:
-  en: "Data Scientist | Machine Learning Researcher | Computational Neuroscientist"
-  es: "Data Scientist | Machine Learning Researcher | Neurocientífico Computacional"
+  en: "Ph.D. Candidate in Computer Science (UBA-CONICET) | University Teaching | Machine Learning | Computational Neuroscience"
+  es: "Doctorando en Ciencias de la Computacion (UBA-CONICET) | Docencia Universitaria | Machine Learning | Neurociencia Computacional"
 
 headers:
   profile:
@@ -31,189 +32,209 @@ headers:
     es: "Habilidades Técnicas"
 
 profile:
-  en: "Interdisciplinary Data Scientist and Neuroscientist, currently in the final stage of a Ph.D. in Computer Science (University of Buenos Aires). Specialized in **behavioral analysis, eye-tracking, and Machine Learning applied to computational psychiatry**. My experience ranges from predictive modeling and advanced processing of psychophysiological signals and trajectories to Open Source software development. Passionate about translating complex human behavior problems into data-driven solutions, communicating them effectively, and building valuable, scalable software products."
-  es: "Data Scientist y Neurocientífico con enfoque interdisciplinario, cursando la etapa final del Doctorado en Ciencias de la Computación (UBA). Especializado en **análisis de comportamiento, eye-tracking y Machine Learning aplicados a la psiquiatría computacional**. Mi experiencia abarca desde el modelado predictivo y procesamiento avanzado de señales psicofisiológicas y trayectorias hasta el desarrollo de herramientas Open Source. Apasionado por traducir problemas complejos del comportamiento humano en soluciones basadas en datos, comunicarlas efectivamente y crear productos de software útiles y escalables."
+  en: "Ph.D. candidate in Computer Science at UBA and CONICET doctoral fellow, with a profile centered on university teaching and academic research. I work between the Applied Artificial Intelligence Lab and the Rebeca Cherep de Guber Institute of Calculus on computational models of eye movements during visual search in natural scenes. My work combines Machine Learning, Bayesian modeling, and computational neuroscience, alongside sustained teaching in undergraduate courses at the UBA Department of Computer Science."
+  es: "Doctorando en Ciencias de la Computacion en la UBA y becario doctoral de CONICET, con un perfil centrado en la docencia universitaria y la investigacion academica. Trabajo entre el Laboratorio de Inteligencia Artificial Aplicada y el Instituto de Calculo Rebeca Cherep de Guber en modelos computacionales de movimientos oculares durante tareas de busqueda visual en escenas naturales. Mi trabajo combina Machine Learning, modelado bayesiano y neurociencia computacional, junto con actividad docente sostenida en materias de grado del Departamento de Computacion de la UBA."
 
 experience:
   - id: "graduate_researcher"
     title:
-      en: "Graduate Researcher (Ph.D. Candidate in Computer Science)"
-      es: "Investigador en Formación (Doctorando en Ciencias de la Computación)"
+      en: "Graduate Researcher"
+      es: "Investigador en Formación"
     company:
-      en: "Applied Artificial Intelligence Lab (LIAA, ICC, UBA-CONICET)"
-      es: "Laboratorio de Inteligencia Artificial Aplicada (LIAA, ICC, UBA-CONICET)"
-    period: "2020 - 2026"
-    highlights:
-      en:
-        - "**Project:** Development of computational tools for the early detection of cognitive deficits using predictions based on visual and manual trajectories."
-        - "**Predictive Modeling:** Application of Machine Learning to classify and understand the algorithm behind complex task execution in patients. Feature engineering derived from high-precision measurements (hand & eye tracking)."
-        - "**Experimental Web Development:** Implementation of remote cognitive assessments via webcam eye-tracking, developing custom browser-based data capture solutions."
-        - "*Funding: CONICET Doctoral Fellowship.*"
-      es:
-        - "**Proyecto:** Desarrollo de herramientas computacionales para la detección temprana de déficits cognitivos mediante predicciones basadas en trayectorias visuales y manuales."
-        - "**Modelado Predictivo:** Uso de Machine Learning para clasificar y entender el algoritmo detrás de la ejecución de tareas complejas en pacientes. Ingeniería de features a partir de mediciones de alta precisión (hand & eye tracking)."
-        - "**Desarrollo Web Experimental:** Implementación de evaluaciones cognitivas remotas mediante eye-tracking por cámara web, desarrollando soluciones para capturar datos en el navegador."
-        - "*Financiamiento: Beca de Doctorado CONICET.*"
-
-  - id: "data_scientist_caf"
-    title:
-      en: "Data Scientist"
-      es: "Data Scientist"
-    company:
-      en: "Development Bank of Latin America and the Caribbean (CAF)"
-      es: "Banco de Desarrollo de América Latina y el Caribe (CAF)"
-    period: "2021 - 2022"
-    highlights:
-      en:
-        - "**Project:** Early warning system to prevent school dropout in the province of Mendoza, Argentina."
-        - "**Tasks:** Data extraction and cleaning, creation and evaluation of Machine Learning models (risk classification/prediction), and development of dashboards for decision-making."
-      es:
-        - "**Proyecto:** Sistema de alertas tempranas para prevenir el abandono escolar en la provincia de Mendoza."
-        - "**Tareas:** Extracción y limpieza de datos, creación y evaluación de modelos de Machine Learning (clasificación/predicción de riesgo) y desarrollo de visualizaciones para toma de decisiones."
-
-  - id: "open_source"
-    title:
-      en: "Open Source Maintainer & Core Contributor"
-      es: "Desarrollador y Colaborador Principal Open Source"
-    company:
-      en: "DataPruebas / \"pyxations\" Library (Python)"
-      es: "DataPruebas / Librería \"pyxations\" (Python)"
+      en: "LIAA / ICC / Rebeca Cherep de Guber Institute of Calculus (UBA-CONICET)"
+      es: "LIAA / ICC / Instituto de Cálculo Rebeca Cherep de Guber (UBA-CONICET)"
     period:
-      en: "2024 - Present"
-      es: "2024 - Actualidad"
+      en: "2018 - Present"
+      es: "2018 - Actualidad"
     highlights:
       en:
-        - "**DataPruebas:** Co-creator of [datapruebas.org](https://datapruebas.org/), an online platform for scientific data collection, integrating open-source frameworks (jsPsych, PsychoPy) and enabling multi-modal data capture (eye-tracking, audio, mouse)."
-        - "**Pyxations:** Co-creator and core contributor of [Pyxations](https://github.com/NeuroLIAA/pyxations), a Python library designed to process, parse, and analyze eye-tracking events and data."
-        - "Software architecture design, implementation of best practices, and open-source project management."
+        - "**Doctoral work:** computational models of eye movements and visual search in natural scenes under the supervision of Juan Kamienkowski."
+        - "**Funding:** CONICET internal doctoral fellowship (2018 - 2024)."
+        - "Research interests include Machine Learning, computational neuroscience, eye tracking, deep learning, and Bayesian modeling."
       es:
-        - "**DataPruebas:** Co-creador de [datapruebas.org](https://datapruebas.org/), plataforma online para recolección de datos científicos, integrando frameworks open-source (jsPsych, PsychoPy) y habilitando la captura de múltiples modalidades (eye-tracking, audio, mouse)."
-        - "**Pyxations:** Co-creador y colaborador principal de [Pyxations](https://github.com/NeuroLIAA/pyxations), librería de Python orientada a procesar y analizar eventos y datos de eye-tracking."
-        - "Diseño y desarrollo de arquitectura de software, implementación de buenas prácticas y administración de proyectos de código abierto."
+        - "**Trabajo doctoral:** modelos computacionales de movimientos oculares y búsqueda visual en escenas naturales bajo la dirección de Juan Kamienkowski."
+        - "**Financiamiento:** beca interna doctoral CONICET (2018 - 2024)."
+        - "Intereses de investigación en Machine Learning, neurociencia computacional, eye tracking, deep learning y modelado bayesiano."
 
-  - id: "data_analyst_uba"
+  - id: "university_teaching"
     title:
-      en: "Data Analyst (UBA Extension Volunteer)"
-      es: "Analista de Datos (Voluntariado Extensión UBA)"
+      en: "JTP / Teaching Assistant / University Instructor"
+      es: "JTP / Docente Auxiliar / Ayudante de Primera"
     company:
-      en: "Popular Data Workshop (Taller de Datos Populares) - Exactas UBA"
-      es: "Taller de Datos Populares - Exactas UBA"
-    period: "2022 - 2024"
-    highlights:
-      en:
-        - "Application of Data Science tools to address social issues."
-        - "Development of **Web Scraping** pipelines to extract, analyze, and consolidate a database of short-term rental prices, assessing their economic impact in the Argentine Patagonia."
-      es:
-        - "Aplicación de herramientas de Ciencia de Datos para resolver problemáticas sociales."
-        - "Desarrollo de pipelines de **Web Scraping** para extraer, analizar y consolidar una base de datos de precios de alquileres temporales, evaluando el impacto económico en la Patagonia Argentina."
-
-  - id: "instructor"
-    title:
-      en: "Data Science & Programming Instructor"
-      es: "Docente en Data Science & Programación"
-    company:
-      en: "NeuroTransmitiendo, Instituto Humai, UBA, Instituto CPE & Argentine Society for Research in Neurosciences (SAN)"
-      es: "NeuroTransmitiendo, Instituto Humai, UBA, Instituto CPE & Sociedad Argentina de Investigación en Neurociencias (SAN)"
+      en: "Department of Computer Science, School of Exact and Natural Sciences, University of Buenos Aires"
+      es: "Departamento de Computacion, Facultad de Ciencias Exactas y Naturales, Universidad de Buenos Aires"
     period:
       en: "2021 - Present"
       es: "2021 - Actualidad"
     highlights:
       en:
-        - "**Machine Learning Instructor:** Teacher in the Cognitive Neurosciences Diploma (NeuroTransmitiendo). Teaching Assistant for \"Thesis Workshop I\" (Master's in Data Mining and Knowledge Discovery, UBA)."
-        - "**Programming Instructor:** Teacher and material developer for Python courses (**Instituto Humai**). Instructor of *Data Wrangling* and *Data Visualization with Python* (**Instituto CPE**, remote, Uruguay), and the \"Data Analysis and Visualization with Python\" course (**SAN** 2022)."
+        - "**Jefe de Trabajos Practicos** in **Machine Learning** from August 2024 to August 2025."
+        - "**Jefe de Trabajos Practicos** in **Computational Statistics** from August 2025 to the present."
+        - "**Teaching Assistant** in **Machine Learning** from March 2024 to August 2024."
+        - "**Teaching Assistant** in **Computer Organization** from August 2021 to December 2023."
+        - "Previous university teaching experience in **Mathematics (CBC UBA)** between 2013 and 2021."
       es:
-        - "**Docencia en Machine Learning:** Docente en la Diplomatura en Neurociencias Cognitivas (NeuroTransmitiendo). Docente auxiliar en el \"Taller de Tesis I\" (Maestría en Data Mining, UBA)."
-        - "**Docencia en Programación:** Docente y desarrollador de material en cursos de Python (**Instituto Humai**). Instructor de *Data Wrangling* y *Visualización de datos con Python* (**Instituto CPE**, remoto, Uruguay), y del curso \"Análisis y visualización de datos con Python\" (**SAN** 2022)."
+        - "**Jefe de Trabajos Practicos** en **Aprendizaje Automatico** entre agosto de 2024 y agosto de 2025."
+        - "**Jefe de Trabajos Practicos** en **Estadistica Computacional** desde agosto de 2025 hasta la actualidad."
+        - "**Ayudante de 1ra** en **Aprendizaje Automatico** entre marzo de 2024 y agosto de 2024."
+        - "**Ayudante de 1ra** en **Organizacion del Computador** entre agosto de 2021 y diciembre de 2023."
+        - "Experiencia docente universitaria previa en **Matematica (CBC UBA)** entre 2013 y 2021."
 
-  - id: "content_creator"
+  - id: "professional_experience"
     title:
-      en: "Educational Content Creator & Tech Writer"
-      es: "Creador de Contenido Educativo & Tech Writer"
+      en: "Research Data Scientist"
+      es: "Research Data Scientist"
     company:
-      en: "freeCodeCamp & Independent Publications"
-      es: "freeCodeCamp & Publicaciones Independientes"
+      en: "Everything ALS"
+      es: "Everything ALS"
+    period:
+      en: "March 2024 - Present"
+      es: "Marzo 2024 - Actualidad"
+    highlights:
+      en:
+        - "Research Data Scientist working on data-driven analysis in the context of amyotrophic lateral sclerosis."
+      es:
+        - "Research Data Scientist trabajando en analisis orientado por datos en el contexto de esclerosis lateral amiotrofica."
+
+  - id: "open_research_resources"
+    title:
+      en: "Open Research Software and Teaching Resources"
+      es: "Software Abierto de Investigación y Recursos Docentes"
+    company:
+      en: "GitHub / NeuroLIAA"
+      es: "GitHub / NeuroLIAA"
+    period:
+      en: "2022 - Present"
+      es: "2022 - Actualidad"
+    highlights:
+      en:
+        - "Contributor to **ViSioNS**, a benchmark for computational models of human visual search in natural scenes."
+        - "Contributor to **sIBS**, a Bayesian visual-search model for natural scenes."
+        - "Author of the public course repository **Data Processing and Visualization with Python - SAN 2022**."
+      es:
+        - "Contribuidor en **ViSioNS**, benchmark para modelos computacionales de búsqueda visual humana en escenas naturales."
+        - "Contribuidor en **sIBS**, modelo bayesiano de búsqueda visual en escenas naturales."
+        - "Autor del repositorio público del curso **Procesamiento y Visualización de Datos con Python - SAN 2022**."
+
+  - id: "peer_review"
+    title:
+      en: "Peer Reviewer"
+      es: "Revisor Académico"
+    company:
+      en: "Frontiers in Psychology / NeurIPS ecosystem"
+      es: "Frontiers in Psychology / ecosistema NeurIPS"
+    period:
+      en: "2021 - 2023"
+      es: "2021 - 2023"
+    highlights:
+      en:
+        - "Reviewer for **Frontiers in Psychology** (Cognitive Science section) in 2023."
+        - "Reviewer for **NeurIPS 2022 Datasets and Benchmarks**."
+        - "Reviewer for submissions to the **NeurIPS 2021 Shared Visual Representations in Humans and Machines Workshop**."
+      es:
+        - "Revisor para **Frontiers in Psychology** (sección Cognitive Science) en 2023."
+        - "Revisor para **NeurIPS 2022 Datasets and Benchmarks**."
+        - "Revisor de trabajos para el workshop **Shared Visual Representations in Humans and Machines** de **NeurIPS 2021**."
+
+  - id: "mentorship"
+    title:
+      en: "Thesis Co-supervisor and Undergraduate Research Mentor"
+      es: "Codirector de Tesis y Mentor de Investigación de Grado"
+    company:
+      en: "University of Buenos Aires"
+      es: "Universidad de Buenos Aires"
     period:
       en: "2021 - Present"
       es: "2021 - Actualidad"
     highlights:
       en:
-        - "**freeCodeCamp:** First external contributor to the Spanish YouTube channel. Creator of the comprehensive [Web Scraping with Python and BeautifulSoup](https://github.com/GEJ1/web_scraping_freecodecamp) course."
-        - "**Outreach:** Active author of technical articles on Medium and Substack about interactive Python, NLP (e.g., semantic search engines with Streamlit), and programming tutorials."
+        - "Co-supervision of the Computer Science undergraduate theses of **Fermín Travi** and **Gonzalo Ruarte** (defended in 2023)."
+        - "Mentor of the undergraduate research fellowship of **Gianluca Capelo** on individual differences in executive functions (from 2024)."
+        - "Mentor of the undergraduate research fellowship of **Fermín Travi** on computational models of human visual search (2021)."
       es:
-        - "**freeCodeCamp:** Primer colaborador externo del canal de YouTube en español. Creación del curso completo de [Web Scraping con Python y BeautifulSoup](https://github.com/GEJ1/web_scraping_freecodecamp)."
-        - "**Divulgación:** Autor activo de artículos técnicos en Medium y Substack sobre Python interactivo, NLP (ej. buscadores semánticos con Streamlit), y tutoriales de programación."
+        - "Codirección de las tesis de Licenciatura en Ciencias de la Computación de **Fermín Travi** y **Gonzalo Ruarte** (defendidas en 2023)."
+        - "Mentor de la beca de iniciación a la investigación de **Gianluca Capelo** sobre diferencias individuales en funciones ejecutivas (desde 2024)."
+        - "Mentor de la beca de iniciación a la investigación de **Fermín Travi** sobre modelos computacionales de búsqueda visual humana (2021)."
 
 education:
   primary:
     - title:
-        en: "**Ph.D. in Computer Science** | UBA (2020 - 2026)"
-        es: "**Doctorado en Ciencias de la Computación** | UBA (2020 - 2026)"
+        en: "**Ph.D. in Computer Science** | UBA (2018 - Present)"
+        es: "**Doctorado en Ciencias de la Computación** | UBA (2018 - Actualidad)"
       description:
-        en: "Topic: *Computational psychiatry: individual differences and identification of executive function deficits.*"
-        es: "Tema: *Psiquiatría computacional: diferencias individuales e identificación de déficits de funciones ejecutivas.*"
+        en: "Doctoral thesis on computational models of human visual search in natural scenes. Advisor: Juan Kamienkowski. Co-advisor: Guillermo Solovey."
+        es: "Tesis doctoral sobre modelos computacionales de búsqueda visual humana en escenas naturales. Director: Juan Kamienkowski. Codirector: Guillermo Solovey."
     - title:
-        en: "**B.S. in Biological Sciences (Neurosciences track)** | UBA (2011 - 2019)"
-        es: "**Licenciatura en Ciencias Biológicas (Orientación Neurociencias)** | UBA (2011 - 2019)"
+        en: "**B.Sc. in Mathematics** | UBA (2018)"
+        es: "**Licenciatura en Matemática** | UBA (2018)"
       description:
-        en: "GPA: 7.96 / 10. Thesis conducted at the Applied Artificial Intelligence Lab."
-        es: "Promedio: 7.96 / 10. Tesis en el Lab. de Inteligencia Artificial Aplicada."
-  
+        en: "Applied mathematics focus. Thesis: *Recommendation systems: Factorization Machines and the cold-start problem.* Advisor: Leandro Lombardi."
+        es: "Orientación en matemática aplicada. Tesis: *Sistemas de recomendación: Máquinas de factorización y el problema del arranque en frío.* Director: Leandro Lombardi."
+
   additional_header:
-    en: "*Notable Additional Education (see LinkedIn for more):*"
-    es: "*Educación Adicional Destacada (ver más en LinkedIn):*"
+    en: "*Selected distinctions and coursework:*"
+    es: "*Distinciones y formación complementaria seleccionada:*"
 
   additional:
-    - en: "**Generative Artificial Intelligence** (UBA, 2023): Language Models, Word Embeddings, Deep Learning, Computer Vision."
-      es: "**Inteligencia Artificial Generativa** (UBA, 2023): Modelos de lenguaje, Word Embeddings, Deep Learning, Visión por computadora."
-    - en: "**Data Lab** (UBA, 2021): NLP, Web Scraping, APIs, Advanced Regression/Classification Models. *Distinction: Best predictive model in the course's internal Kaggle-style competition.*"
-      es: "**Laboratorio de Datos** (UBA, 2021): NLP, Web Scraping, APIs, Modelos Avanzados de Regresión/Clasificación. *Distinción: Mejor modelo predictivo en la competencia interna Kaggle-style de la materia.*"
-    - en: "**Neuromatch Academy** (2020): Deep Learning, GLM, Dimensionality Reduction, Bayesian Statistics."
-      es: "**Neuromatch Academy** (2020): Deep Learning, GLM, Reducción de dimensionalidad, Estadística Bayesiana."
+    - en: "**CONICET Internal Doctoral Fellowship** (2018 - 2024). Advisor: Juan Kamienkowski."
+      es: "**Beca Interna Doctoral CONICET** (2018 - 2024). Director: Juan Kamienkowski."
+    - en: "**Selected Computer Science coursework:** Machine Learning, Speech Processing, Software Engineering II, Databases, Operating Systems, Probability and Statistics."
+      es: "**Cursos destacados de Ciencias de la Computacion:** Aprendizaje Automatico, Procesamiento del Habla, Ingenieria de Software II, Base de Datos, Sistemas Operativos, Probabilidad y Estadistica."
+    - en: "**Research areas:** Artificial Intelligence, computer software, Bayesian statistics, computational neuroscience."
+      es: "**Areas de investigacion:** inteligencia artificial, software, estadistica bayesiana y neurociencia computacional."
 
   mentorship_header:
-    en: "**Mentorship and Co-direction of Theses (B.S. in Computer Science, UBA):**"
-    es: "**Mentoría y Co-dirección de Tesis (Licenciatura en Ciencias de la Computación, UBA):**"
+    en: "**Thesis Co-supervision and Research Mentorship:**"
+    es: "**Codirección de Tesis y Mentoría de Investigación:**"
 
   mentorship:
-    - en: "**Francisco Figari:** *Applicability of remote web eye-tracking to neuropsychological diagnosis* (Defended 2022)."
-      es: "**Francisco Figari:** *Aplicabilidad de eye-tracking web remoto al diagnóstico neuropsicológico* (defendida 2022)."
-    - en: "**Agustín Penas:** *Automatic detection of eye-tracking events* (In progress)."
-      es: "**Agustín Penas:** *Detección automática de eventos de eye-tracking* (en proceso)."
-    - en: "**Gianluca Capelo:** *Prediction of individual differences in executive functions using ML* (In progress)."
-      es: "**Gianluca Capelo:** *Predicción de diferencias individuales en funciones ejecutivas mediante ML* (en proceso)."
+    - en: "**Fermín Travi:** Computer Science undergraduate thesis on computational models of human visual search in natural scenes (defended on 2023-09-19)."
+      es: "**Fermín Travi:** tesis de Licenciatura en Ciencias de la Computación sobre modelos computacionales de búsqueda visual humana en escenas naturales (defendida el 19/09/2023)."
+    - en: "**Gonzalo Ruarte:** Computer Science undergraduate thesis on optimization and adaptations of a visual-search model for cIBS (defended on 2023-09-19)."
+      es: "**Gonzalo Ruarte:** tesis de Licenciatura en Ciencias de la Computación sobre optimización y mejoras del modelo de búsqueda visual cIBS (defendida el 19/09/2023)."
+    - en: "**Gianluca Capelo:** undergraduate research fellowship on prediction of individual differences in executive functions (from 2024)."
+      es: "**Gianluca Capelo:** beca de iniciación a la investigación sobre predicción de diferencias individuales en funciones ejecutivas (desde 2024)."
+    - en: "**Fermín Travi:** undergraduate research fellowship on computational models of human visual search (2021)."
+      es: "**Fermín Travi:** beca de iniciación a la investigación sobre modelos computacionales de búsqueda visual humana (2021)."
 
 publications_header:
-  en: "*(For the complete list of papers and posters refer to Google Scholar)*"
-  es: "*(Para la lista completa de papers y pósters referirse a Google Scholar)*"
+  en: "*(Selected top 5, generated automatically from `src/publications.bib` during the build)*"
+  es: "*(Top 5 seleccionado, generado automáticamente desde `src/publications.bib` durante la compilación)*"
 
-publications:
-  - en: "Verón, G. L., **Bujia, G. E.**, Keller, G., Crivelli, L., & Kamienkowski, J. E. (2026). *Eye tracking as a diagnostic tool in Alzheimer's disease, mild cognitive impairment, and related dementias: a systematic review.* In **Alzheimer's & Dementia: Diagnosis, Assessment & Disease Monitoring**, 18(1), e70238."
-    es: "Verón, G. L., **Bujia, G. E.**, Keller, G., Crivelli, L., & Kamienkowski, J. E. (2026). *Eye tracking as a diagnostic tool in Alzheimer's disease, mild cognitive impairment, and related dementias: a systematic review.* **Alzheimer's & Dementia: Diagnosis, Assessment & Disease Monitoring**, 18(1), e70238."
-  - en: "**Bujia, G. E.**, Capelo, G., Leon Vallejos, B. D., Ibáñez, A., Petroni, A., Berrios, W., Fernández, M. C., & Kamienkowski, J. E. (2026). *Machine Learning Based Digital Assessment of Mild Cognitive Impairment Using Hand Movements during the Trail Making Test.* In **medRxiv**."
-    es: "**Bujia, G. E.**, Capelo, G., Leon Vallejos, B. D., Ibáñez, A., Petroni, A., Berrios, W., Fernández, M. C., & Kamienkowski, J. E. (2026). *Machine Learning Based Digital Assessment of Mild Cognitive Impairment Using Hand Movements during the Trail Making Test.* **medRxiv**."
-  - en: "Belloli, L., Keller, G., Carello, A., Gauder, L., **Bujia, G. E.**, Corvalan, N., Allegri, R. F., Crivelli, L., & Fernández Slezak, D. (2025). *Multi-modal AI screening for MCI and Alzheimer's Disease: results from an Argentine Cohort.* In **Alzheimer's & Dementia**."
-    es: "Belloli, L., Keller, G., Carello, A., Gauder, L., **Bujia, G. E.**, Corvalan, N., Allegri, R. F., Crivelli, L., & Fernández Slezak, D. (2025). *Multi-modal AI screening for MCI and Alzheimer's Disease: results from an Argentine Cohort.* **Alzheimer's & Dementia**."
-  - en: "**Bujia, G. E.**, Gauder, L., Laciana, P., Ferrer, L., & Kamienkowski, J. E. (2025). *DataPruebas: An Online Platform for Data Collection.* In **Argentine Symposium on Artificial Intelligence and Data Science (ASAID 2025)-JAIIO 54**."
-    es: "**Bujia, G. E.**, Gauder, L., Laciana, P., Ferrer, L., & Kamienkowski, J. E. (2025). *DataPruebas: An Online Platform for Data Collection.* **Simposio Argentino de Inteligencia Artificial y Ciencia de Datos (ASAID 2025)-JAIIO 54**."
-  - en: "**Bujia, G. E.**, Capelo, G., Leon Vallejos, B. D., Berrios, W., Fernández, M. C., Ibáñez, A., Petroni, A., & Kamienkowski, J. E. (2024). *Enhancing Cognitive Assessment: Integrating Hand and Eye Tracking in the Digital Trail-Making Test for Mild Cognitive Impairment.* In **ETRA '24** (ACM Symposium on Eye Tracking Research and Applications)."
-    es: "**Bujia, G. E.**, Capelo, G., Leon Vallejos, B. D., Berrios, W., Fernández, M. C., Ibáñez, A., Petroni, A., & Kamienkowski, J. E. (2024). *Enhancing Cognitive Assessment: Integrating Hand and Eye Tracking in the Digital Trail-Making Test for Mild Cognitive Impairment.* **ETRA '24** (ACM Symposium on Eye Tracking Research and Applications)."
-  - en: "**Bujia, G. E.**, Figari, F., Petroni, A., & Kamienkowski, J. E. (2023). *Web-based eye-tracking for remote cognitive assessments: The anti-saccade task as a case study.* In **bioRxiv**."
-    es: "**Bujia, G. E.**, Figari, F., Petroni, A., & Kamienkowski, J. E. (2023). *Web-based eye-tracking for remote cognitive assessments: The anti-saccade task as a case study.* **bioRxiv**."
-  - en: "Linari, I.\\*, **Bujia, G. E.\\***, Ibáñez, A., Petroni, A., & Kamienkowski, J. E. (2022). *Unveiling Trail Making Test: visual and manual trajectories indexing multiple executive processes.* In **Scientific Reports (Nature)**, 12(1), 14265. (\\*Shared first authorship)."
-    es: "Linari, I.\\*, **Bujia, G. E.\\***, Ibáñez, A., Petroni, A., & Kamienkowski, J. E. (2022). *Unveiling Trail Making Test: visual and manual trajectories indexing multiple executive processes.* **Scientific Reports (Nature)**, 12(1), 14265. (\\*Primera autoría compartida)."
+publications: []
 
 skills:
-  - en: "**Programming Languages:** Python, JavaScript, R, Matlab, SQL."
-    es: "**Lenguajes de Programación:** Python, JavaScript, R, Matlab, SQL."
-  - en: "**Data Science & Machine Learning:** Scikit-Learn, Pandas, NumPy, Exploratory Data Analysis (EDA), Statistical Modeling."
-    es: "**Data Science & Machine Learning:** Scikit-Learn, Pandas, NumPy, Análisis Exploratorio de Datos (EDA), Modelado Estadístico."
-  - en: "**Deep Learning & NLP:** Pytorch, LLMs."
-    es: "**Deep Learning & NLP:** Pytorch, LLMs."
-  - en: "**Data Engineering & Analysis:** Web Scraping (BeautifulSoup, automation), APIs, large-scale data preprocessing."
-    es: "**Ingeniería y Análisis de Datos:** Web Scraping (BeautifulSoup, automatización), APIs, preprocesamiento de grandes volúmenes de datos."
-  - en: "**Development Tools & Frameworks:** Git/GitHub, Jupyter Notebooks, Google Colab, Streamlit, jsPsych."
-    es: "**Herramientas y Frameworks de Desarrollo:** Git/GitHub, Jupyter Notebooks, Google Colab, Streamlit, jsPsych."
-  - en: "**Domain Specialties:** Eye-tracking, Signal Analysis (EEG, temporal trajectories), Online Experiment Design."
-    es: "**Especialidades de Dominio:** Eye-tracking, Análisis de Señales (EEG, trayectorias temporales), Diseño de Experimentos Online."
-  - en: "**Languages:** English (Advanced), Spanish (Native)."
-    es: "**Idiomas:** Inglés (Avanzado), Español (Nativo)."
+  - en: "**Research Areas:** eye tracking, visual search, Machine Learning, computational neuroscience, Bayesian modeling."
+    es: "**Áreas de trabajo:** eye tracking, búsqueda visual, Machine Learning, neurociencia computacional, modelado bayesiano."
+  - en: "**Software and Methods:** Python, Jupyter, scientific computing, computational modeling, benchmarking of cognitive models."
+    es: "**Software y métodos:** Python, Jupyter, computación científica, modelado computacional, benchmarking de modelos cognitivos."
+  - en: "**Teaching Areas:** Machine Learning, computer organization and architecture, undergraduate and graduate instruction."
+    es: "**Áreas de docencia:** Aprendizaje Automático, organización y arquitectura de computadoras, enseñanza de grado y posgrado."
+  - en: "**Languages:** Spanish (native), English (professional working proficiency)."
+    es: "**Idiomas:** Español (nativo), Inglés (competencia profesional)."
+
+# Private data available in src/previous/cv_concurso/datos_del_aspirante.tex and intentionally not rendered:
+#
+# Relevant information from the previous CV not modeled cleanly by the current template yet:
+# - Publications are now sourced from src/publications.bib instead of this YAML file.
+# - Alternative public rendering of the name in academic pages: "Gastón Bujía"
+# - User requested accent-free rendering of the name in this CV: "Gaston Elian Bujia"
+# - SIGEVA also includes residential data, CUIL, and administrative work addresses that are intentionally omitted here.
+# - Teaching record to verify: user message suggests a possible additional period in Organizacion del Computador up to agosto 2024.
+# - Detailed conference participation:
+#   - Latin American Summer School in Computational Neuroscience (2023)
+#   - IX Congreso de Matemática Aplicada, Computacional e Industrial (2023)
+#   - SAN 2023 (poster on metacognition of computational processes in visual search)
+#   - KHIPU 2023
+#   - LACONEU 2023
+#   - NeurIPS 2022, 2021, 2020
+#   - SfN 2021
+#   - SAN 2020
+#   - Simposio II de la Sociedad Uruguaya de Ciencias Cognitivas y del Comportamiento 2020
+# - Outreach and science communication:
+#   - Semana de las Ciencias (2011, 2012, 2014, 2016)
+#   - Tecnópolis 2011
+#   - Imaginary en Tecnópolis 2012
+# - University management:
+#   - Coordinación de horarios en Exactas en Tecnópolis (2013 - 2017)
+# - Detailed grades from src/previous/cv_concurso/calificaciones.tex
