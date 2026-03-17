@@ -7,7 +7,7 @@ gastonbujia@gmail.com | gbujia@dc.uba.ar | [LinkedIn](https://www.linkedin.com/i
 
 ## Perfil Profesional
 
-Docente universitario y doctorando en Ciencias de la Computación en la UBA, con más de diez años de experiencia docente en materias de grado y posgrado. Actualmente soy becario doctoral de CONICET y trabajo en el Laboratorio de Inteligencia Artificial Aplicada sobre modelos computacionales de movimientos oculares durante tareas de búsqueda visual en escenas naturales. Mi perfil académico combina una actividad docente sostenida con investigación en Machine Learning, modelado bayesiano y neurociencia computacional. Actualmente, soy Research Data Scientist en Everything ALS, trabajando en análisis orientado a datos en el contexto de esclerosis lateral amiotrófica.
+Docente universitario y doctorando en Ciencias de la Computación en la UBA, con más de diez años de experiencia docente en materias de grado y posgrado. Actualmente soy becario doctoral de CONICET y trabajo en el Laboratorio de Inteligencia Artificial Aplicada sobre modelos computacionales de movimientos oculares durante tareas de búsqueda visual en escenas naturales. Mi perfil académico combina una actividad docente sostenida con investigación en Machine Learning, modelado bayesiano y neurociencia computacional.
 
 ---
 
@@ -69,7 +69,7 @@ Docente universitario y doctorando en Ciencias de la Computación en la UBA, con
 
 
 
-### Investigación y Actividad Profesional
+### Investigación
 
 
 #### Investigador en Formación
@@ -94,6 +94,10 @@ Docente universitario y doctorando en Ciencias de la Computación en la UBA, con
 
 *   Autor del repositorio público del curso **Procesamiento y Visualización de Datos con Python - SAN 2022**.
 
+
+
+
+### Actividad Profesional
 
 
 #### Research Data Scientist
@@ -155,7 +159,7 @@ Docente universitario y doctorando en Ciencias de la Computación en la UBA, con
 
 *   **Visualización y materiales de enseñanza:** Matplotlib, Seaborn, Plotly y Jupyter Notebooks como herramienta pedagógica.
 
-*   **Herramientas y flujos de trabajo:** Git, GitHub, LaTeX y desarrollo de repositorios reproducibles para cursos.
+*   **Herramientas y flujos de trabajo:** Git, GitHub, LaTeX.
 
 *   **Áreas de docencia:** Aprendizaje Automático, estadística computacional, organización y arquitectura de computadoras, y enseñanza de grado y posgrado.
 

@@ -14,8 +14,8 @@
 ## {{ headers.experience[lang] }}
 
 {% set section_labels = {
-  "en": {"teaching": "Teaching", "research": "Research and Professional Activity"},
-  "es": {"teaching": "Docencia", "research": "Investigación y Actividad Profesional"}
+  "en": {"teaching": "Teaching", "research": "Research", "professional": "Professional Activity"},
+  "es": {"teaching": "Docencia", "research": "Investigación", "professional": "Actividad Profesional"}
 } %}
 
 ### {{ section_labels[lang]["teaching"] }}
@@ -33,6 +33,18 @@
 ### {{ section_labels[lang]["research"] }}
 
 {% for job in experience if job.section == "research" %}
+#### {{ job.title[lang] }}
+**{{ job.company[lang] }}** | *{{ job.period[lang] if job.period is mapping else job.period }}*
+
+{% for hl in job.highlights[lang] %}
+*   {{ hl }}
+{% endfor %}
+
+{% endfor %}
+
+### {{ section_labels[lang]["professional"] }}
+
+{% for job in experience if job.section == "professional" %}
 #### {{ job.title[lang] }}
 **{{ job.company[lang] }}** | *{{ job.period[lang] if job.period is mapping else job.period }}*
 

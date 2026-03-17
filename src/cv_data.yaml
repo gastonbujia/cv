@@ -35,8 +35,8 @@ headers:
     es: "Habilidades Técnicas"
 
 profile:
-  en: "University instructor and Ph.D. candidate in Computer Science at UBA, with more than ten years of teaching experience across undergraduate and graduate courses. I am currently a doctoral fellow and work at the Applied Artificial Intelligence Lab on computational models of eye movements during visual search in natural scenes. My academic profile combines sustained teaching activity with research in Machine Learning, Bayesian modeling, and computational neuroscience. Currently, I am a Research Data Scientist at Everything ALS, working on data-driven analysis in the context of amyotrophic lateral sclerosis."
-  es: "Docente universitario y doctorando en Ciencias de la Computación en la UBA, con más de diez años de experiencia docente en materias de grado y posgrado. Actualmente soy becario doctoral de CONICET y trabajo en el Laboratorio de Inteligencia Artificial Aplicada sobre modelos computacionales de movimientos oculares durante tareas de búsqueda visual en escenas naturales. Mi perfil académico combina una actividad docente sostenida con investigación en Machine Learning, modelado bayesiano y neurociencia computacional. Actualmente, soy Research Data Scientist en Everything ALS, trabajando en análisis orientado a datos en el contexto de esclerosis lateral amiotrófica."
+  en: "University teacher and Ph.D. candidate in Computer Science at UBA, with more than ten years of teaching experience across undergraduate and graduate courses. I am currently a doctoral fellow and work at the Applied Artificial Intelligence Lab on computational models of eye movements during visual search in natural scenes. My academic profile combines sustained teaching activity with research in Machine Learning, Bayesian modeling, and computational neuroscience."
+  es: "Docente universitario y doctorando en Ciencias de la Computación en la UBA, con más de diez años de experiencia docente en materias de grado y posgrado. Actualmente soy becario doctoral de CONICET y trabajo en el Laboratorio de Inteligencia Artificial Aplicada sobre modelos computacionales de movimientos oculares durante tareas de búsqueda visual en escenas naturales. Mi perfil académico combina una actividad docente sostenida con investigación en Machine Learning, modelado bayesiano y neurociencia computacional."
 
 experience:
   - id: "university_teaching"
@@ -168,7 +168,7 @@ experience:
         - "Autor del repositorio público del curso **Procesamiento y Visualización de Datos con Python - SAN 2022**."
 
   - id: "professional_experience"
-    section: "research"
+    section: "professional"
     title:
       en: "Research Data Scientist"
       es: "Research Data Scientist"
@@ -234,8 +234,8 @@ skills:
     es: "**Machine Learning y modelado:** PyTorch, TensorFlow, modelado bayesiano, eye tracking y modelado computacional."
   - en: "**Visualization and teaching materials:** Matplotlib, Seaborn, Plotly, and Jupyter Notebooks as a pedagogical tool."
     es: "**Visualización y materiales de enseñanza:** Matplotlib, Seaborn, Plotly y Jupyter Notebooks como herramienta pedagógica."
-  - en: "**Tools and workflows:** Git, GitHub, LaTeX, and development of reproducible course repositories."
-    es: "**Herramientas y flujos de trabajo:** Git, GitHub, LaTeX y desarrollo de repositorios reproducibles para cursos."
+  - en: "**Tools and workflows:** Git, GitHub, LaTeX."
+    es: "**Herramientas y flujos de trabajo:** Git, GitHub, LaTeX."
   - en: "**Teaching areas:** Machine Learning, computational statistics, computer organization and architecture, undergraduate and graduate instruction."
     es: "**Áreas de docencia:** Aprendizaje Automático, estadística computacional, organización y arquitectura de computadoras, y enseñanza de grado y posgrado."
   - en: "**Languages:** Spanish (native), English (professional working proficiency)."

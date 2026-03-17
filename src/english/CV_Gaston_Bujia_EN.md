@@ -7,7 +7,7 @@ gastonbujia@gmail.com | gbujia@dc.uba.ar | [LinkedIn](https://www.linkedin.com/i
 
 ## Professional Profile
 
-University instructor and Ph.D. candidate in Computer Science at UBA, with more than ten years of teaching experience across undergraduate and graduate courses. I am currently a doctoral fellow and work at the Applied Artificial Intelligence Lab on computational models of eye movements during visual search in natural scenes. My academic profile combines sustained teaching activity with research in Machine Learning, Bayesian modeling, and computational neuroscience. Currently, I am a Research Data Scientist at Everything ALS, working on data-driven analysis in the context of amyotrophic lateral sclerosis.
+University teacher and Ph.D. candidate in Computer Science at UBA, with more than ten years of teaching experience across undergraduate and graduate courses. I am currently a doctoral fellow and work at the Applied Artificial Intelligence Lab on computational models of eye movements during visual search in natural scenes. My academic profile combines sustained teaching activity with research in Machine Learning, Bayesian modeling, and computational neuroscience.
 
 ---
 
@@ -69,7 +69,7 @@ University instructor and Ph.D. candidate in Computer Science at UBA, with more 
 
 
 
-### Research and Professional Activity
+### Research
 
 
 #### Graduate Researcher
@@ -94,6 +94,10 @@ University instructor and Ph.D. candidate in Computer Science at UBA, with more 
 
 *   Author of the public course repository **Data Processing and Visualization with Python - SAN 2022**.
 
+
+
+
+### Professional Activity
 
 
 #### Research Data Scientist
@@ -155,7 +159,7 @@ University instructor and Ph.D. candidate in Computer Science at UBA, with more 
 
 *   **Visualization and teaching materials:** Matplotlib, Seaborn, Plotly, and Jupyter Notebooks as a pedagogical tool.
 
-*   **Tools and workflows:** Git, GitHub, LaTeX, and development of reproducible course repositories.
+*   **Tools and workflows:** Git, GitHub, LaTeX.
 
 *   **Teaching areas:** Machine Learning, computational statistics, computer organization and architecture, undergraduate and graduate instruction.
 
