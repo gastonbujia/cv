@@ -50,16 +50,14 @@
     * {{ edu.description[lang] }}
 {% endfor %}
 
+---
+
+## {{ headers.additional_academic[lang] }}
+
 {{ education.additional_header[lang] }}
 
 {% for edu in education.additional %}
 *   {{ edu[lang] }}
-{% endfor %}
-
-{{ education.mentorship_header[lang] }}
-
-{% for mentor in education.mentorship %}
-*   {{ mentor[lang] }}
 {% endfor %}
 
 ---
