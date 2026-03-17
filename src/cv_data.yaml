@@ -12,7 +12,7 @@ contact:
 
 titles:
   en: "Ph.D. Candidate in Computer Science (UBA-CONICET) | University Teaching | Data Science and Machine Learning | Computational Neuroscience"
-  es: "Doctorando en Ciencias de la Computacion (UBA-CONICET) | Docencia Universitaria | Ciencia de Datos y Machine Learning | Neurociencia Computacional"
+  es: "Doctorando en Ciencias de la Computación (UBA-CONICET) | Docencia Universitaria | Ciencia de Datos y Machine Learning | Neurociencia Computacional"
 
 headers:
   profile:
@@ -20,7 +20,7 @@ headers:
     es: "Perfil Profesional"
   experience:
     en: "Teaching and Academic Background"
-    es: "Antecedentes Docentes y Academicos"
+    es: "Antecedentes Docentes y Académicos"
   education:
     en: "Education"
     es: "Educación"
@@ -32,34 +32,55 @@ headers:
     es: "Habilidades Técnicas"
 
 profile:
-  en: "Ph.D. candidate in Computer Science at UBA and CONICET doctoral fellow, with a profile centered on university teaching and academic research. I work between the Applied Artificial Intelligence Lab and the Rebeca Cherep de Guber Institute of Calculus on computational models of eye movements during visual search in natural scenes. My work combines Machine Learning, Bayesian modeling, and computational neuroscience, alongside sustained teaching in undergraduate courses at the UBA Department of Computer Science."
-  es: "Doctorando en Ciencias de la Computacion en la UBA y becario doctoral de CONICET, con un perfil centrado en la docencia universitaria y la investigacion academica. Trabajo entre el Laboratorio de Inteligencia Artificial Aplicada y el Instituto de Calculo Rebeca Cherep de Guber en modelos computacionales de movimientos oculares durante tareas de busqueda visual en escenas naturales. Mi trabajo combina Machine Learning, modelado bayesiano y neurociencia computacional, junto con actividad docente sostenida en materias de grado del Departamento de Computacion de la UBA."
+  en: "Ph.D. candidate in Computer Science at UBA and CONICET doctoral fellow, with a profile centered on university teaching and academic research. I work between the Applied Artificial Intelligence Lab and the Rebeca Cherep de Guber Institute of Calculus on computational models of eye movements during visual search in natural scenes. My work combines Machine Learning, Bayesian modeling, and computational neuroscience, alongside sustained teaching in undergraduate and graduate courses at UBA."
+  es: "Doctorando en Ciencias de la Computación en la UBA y becario doctoral de CONICET, con un perfil centrado en la docencia universitaria y la investigación académica. Trabajo entre el Laboratorio de Inteligencia Artificial Aplicada y el Instituto de Cálculo Rebeca Cherep de Guber en modelos computacionales de movimientos oculares durante tareas de búsqueda visual en escenas naturales. Mi trabajo combina Machine Learning, modelado bayesiano y neurociencia computacional, junto con actividad docente sostenida en materias de grado y posgrado de la UBA."
 
 experience:
   - id: "university_teaching"
     section: "teaching"
     title:
-      en: "JTP / Teaching Assistant / University Instructor"
-      es: "JTP / Docente Auxiliar / Ayudante de Primera"
+      en: "Senior Teaching Assistant / Teaching Assistant"
+      es: "Jefe de Trabajos Prácticos / Ayudante de Primera"
     company:
       en: "Department of Computer Science, School of Exact and Natural Sciences, University of Buenos Aires"
-      es: "Departamento de Computacion, Facultad de Ciencias Exactas y Naturales, Universidad de Buenos Aires"
+      es: "Departamento de Computación, Facultad de Ciencias Exactas y Naturales, Universidad de Buenos Aires"
     period:
       en: "2021 - Present"
       es: "2021 - Actualidad"
     highlights:
       en:
-        - "**Jefe de Trabajos Practicos** in **Machine Learning** from August 2024 to August 2025."
-        - "**Jefe de Trabajos Practicos** in **Computational Statistics** from August 2025 to the present."
-        - "**Teaching Assistant** in **Machine Learning** from March 2024 to August 2024."
-        - "**Teaching Assistant** in **Computer Organization** from August 2021 to December 2023."
-        - "Previous university teaching experience in **Mathematics (CBC UBA)** between 2013 and 2021."
+        - "**Senior Teaching Assistant** in **Machine Learning**, appointed through competitive examination, from August 2024 to August 2025."
+        - "**Senior Teaching Assistant** in **Computational Statistics**, appointed through competitive examination, from August 2025 to the present."
+        - "**Teaching Assistant** in **Machine Learning**, appointed through competitive examination, from March 2024 to August 2024."
+        - "**Teaching Assistant** in **Computer Organization**, appointed through competitive examination, from August 2021 to December 2023."
+        - "Previous undergraduate teaching experience in **Mathematics (CBC UBA)** between 2013 and 2021."
+        - "All appointments listed above correspond to undergraduate teaching."
       es:
-        - "**Jefe de Trabajos Practicos** en **Aprendizaje Automatico** entre agosto de 2024 y agosto de 2025."
-        - "**Jefe de Trabajos Practicos** en **Estadistica Computacional** desde agosto de 2025 hasta la actualidad."
-        - "**Ayudante de 1ra** en **Aprendizaje Automatico** entre marzo de 2024 y agosto de 2024."
-        - "**Ayudante de 1ra** en **Organizacion del Computador** entre agosto de 2021 y diciembre de 2023."
-        - "Experiencia docente universitaria previa en **Matematica (CBC UBA)** entre 2013 y 2021."
+        - "**Jefe de Trabajos Prácticos** regular por concurso en **Aprendizaje Automático** entre agosto de 2024 y agosto de 2025."
+        - "**Jefe de Trabajos Prácticos** regular por concurso en **Estadística Computacional** desde agosto de 2025 hasta la actualidad."
+        - "**Ayudante de 1ra** regular por concurso en **Aprendizaje Automático** entre marzo de 2024 y agosto de 2024."
+        - "**Ayudante de 1ra** regular por concurso en **Organización del Computador** entre agosto de 2021 y diciembre de 2023."
+        - "Experiencia docente universitaria previa de grado en **Matemática (CBC UBA)** entre 2013 y 2021."
+        - "Todos los cargos detallados arriba corresponden a materias de grado."
+
+  - id: "graduate_teaching"
+    section: "teaching"
+    title:
+      en: "Graduate Teaching Assistant"
+      es: "Docencia Auxiliar de Posgrado"
+    company:
+      en: "Master's Program in Data Mining and Knowledge Discovery, School of Exact and Natural Sciences, University of Buenos Aires"
+      es: "Maestría en Explotación de Datos y Descubrimiento del Conocimiento, Facultad de Ciencias Exactas y Naturales, Universidad de Buenos Aires"
+    period:
+      en: "2021 - 2024"
+      es: "2021 - 2024"
+    highlights:
+      en:
+        - "Teaching Assistant in **Machine Learning** from 2021 to 2024."
+        - "Graduate-level teaching in the master's program."
+      es:
+        - "Docente auxiliar en **Aprendizaje Automático** entre 2021 y 2024."
+        - "Actividad docente de posgrado en el marco de la maestría."
 
   - id: "peer_review"
     section: "teaching"
@@ -116,11 +137,11 @@ experience:
       es: "2018 - Actualidad"
     highlights:
       en:
-        - "**Doctoral work:** computational models of eye movements and visual search in natural scenes under the supervision of Juan Kamienkowski."
+        - "**Doctoral work:** computational models of eye movements and visual search in natural scenes under the supervision of Dr. Juan Kamienkowski."
         - "**Funding:** CONICET internal doctoral fellowship (2018 - 2024)."
         - "Research interests include Machine Learning, computational neuroscience, eye tracking, deep learning, and Bayesian modeling."
       es:
-        - "**Trabajo doctoral:** modelos computacionales de movimientos oculares y búsqueda visual en escenas naturales bajo la dirección de Juan Kamienkowski."
+        - "**Trabajo doctoral:** modelos computacionales de movimientos oculares y búsqueda visual en escenas naturales bajo la dirección del Dr. Juan Kamienkowski."
         - "**Financiamiento:** beca interna doctoral CONICET (2018 - 2024)."
         - "Intereses de investigación en Machine Learning, neurociencia computacional, eye tracking, deep learning y modelado bayesiano."
 
@@ -160,7 +181,7 @@ experience:
       en:
         - "Research Data Scientist working on data-driven analysis in the context of amyotrophic lateral sclerosis."
       es:
-        - "Research Data Scientist trabajando en analisis orientado por datos en el contexto de esclerosis lateral amiotrofica."
+        - "Research Data Scientist trabajando en análisis orientado por datos en el contexto de esclerosis lateral amiotrófica."
 
 education:
   primary:
@@ -168,8 +189,8 @@ education:
         en: "**Ph.D. in Computer Science** | UBA (2018 - Present)"
         es: "**Doctorado en Ciencias de la Computación** | UBA (2018 - Actualidad)"
       description:
-        en: "Doctoral thesis on computational models of human visual search in natural scenes. Advisor: Juan Kamienkowski. Co-advisor: Guillermo Solovey."
-        es: "Tesis doctoral sobre modelos computacionales de búsqueda visual humana en escenas naturales. Director: Juan Kamienkowski. Codirector: Guillermo Solovey."
+        en: "Doctoral thesis on computational models of human visual search in natural scenes. Advisor: Dr. Juan Kamienkowski. Co-advisor: Guillermo Solovey."
+        es: "Tesis doctoral sobre modelos computacionales de búsqueda visual humana en escenas naturales. Director: Dr. Juan Kamienkowski. Codirector: Guillermo Solovey."
     - title:
         en: "**B.Sc. in Mathematics** | UBA (2018)"
         es: "**Licenciatura en Matemática** | UBA (2018)"
@@ -182,12 +203,12 @@ education:
     es: "*Distinciones y formación complementaria seleccionada:*"
 
   additional:
-    - en: "**CONICET Internal Doctoral Fellowship** (2018 - 2024). Advisor: Juan Kamienkowski."
-      es: "**Beca Interna Doctoral CONICET** (2018 - 2024). Director: Juan Kamienkowski."
+    - en: "**CONICET Internal Doctoral Fellowship** (2018 - 2024). Advisor: Dr. Juan Kamienkowski."
+      es: "**Beca Interna Doctoral CONICET** (2018 - 2024). Director: Dr. Juan Kamienkowski."
     - en: "**Selected Computer Science coursework:** Machine Learning, Speech Processing, Software Engineering II, Databases, Operating Systems, Probability and Statistics."
-      es: "**Cursos destacados de Ciencias de la Computacion:** Aprendizaje Automatico, Procesamiento del Habla, Ingenieria de Software II, Base de Datos, Sistemas Operativos, Probabilidad y Estadistica."
+      es: "**Cursos destacados de Ciencias de la Computación:** Aprendizaje Automático, Procesamiento del Habla, Ingeniería de Software II, Base de Datos, Sistemas Operativos, Probabilidad y Estadística."
     - en: "**Research areas:** Artificial Intelligence, computer software, Bayesian statistics, computational neuroscience."
-      es: "**Areas de investigacion:** inteligencia artificial, software, estadistica bayesiana y neurociencia computacional."
+      es: "**Áreas de investigación:** inteligencia artificial, software, estadística bayesiana y neurociencia computacional."
 
   mentorship_header:
     en: "**Thesis Co-supervision and Research Mentorship:**"
@@ -226,7 +247,22 @@ skills:
 # - Alternative public rendering of the name in academic pages: "Gastón Bujía"
 # - User requested accent-free rendering of the name in this CV: "Gaston Elian Bujia"
 # - SIGEVA also includes residential data, CUIL, and administrative work addresses that are intentionally omitted here.
-# - Teaching record to verify: user message suggests a possible additional period in Organizacion del Computador up to agosto 2024.
+# - Teaching record to verify: user message suggests a possible additional period in Organización del Computador up to agosto 2024.
+# - Potential future section:
+#   conference_presentations_header:
+#     en: "Selected Conference Presentations"
+#     es: "Presentaciones en Congresos Seleccionadas"
+#   conference_presentations:
+#     - en: "SAN 2023: poster on metacognition of computational processes underlying eye-movement guidance in visual search."
+#       es: "SAN 2023: póster sobre metacognición de procesos computacionales subyacentes a la guía de movimientos oculares en búsqueda visual."
+#     - en: "KHIPU 2023: poster on visual search in natural scenes."
+#       es: "KHIPU 2023: póster sobre búsqueda visual en escenas naturales."
+#     - en: "NeurIPS 2021 Workshop on Shared Visual Representations in Human and Machine Intelligence."
+#       es: "Workshop de NeurIPS 2021 sobre Shared Visual Representations in Human and Machine Intelligence."
+#     - en: "Vision Sciences Society 2020: poster on Bayesian models of human visual search in natural images."
+#       es: "Vision Sciences Society 2020: póster sobre modelos bayesianos de búsqueda visual humana en imágenes naturales."
+#     - en: "Neuroscience 2021: poster presentation."
+#       es: "Neuroscience 2021: presentación de póster."
 # - Detailed conference participation:
 #   - Latin American Summer School in Computational Neuroscience (2023)
 #   - IX Congreso de Matemática Aplicada, Computacional e Industrial (2023)
