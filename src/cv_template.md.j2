@@ -1,7 +1,7 @@
 # {{ contact.name }}
 **{{ titles[lang] }}**
 
-{{ contact.email }} | [LinkedIn]({{ contact.linkedin }}) | [GitHub]({{ contact.github }}) | [Website]({{ contact.website }}) | [Google Scholar]({{ contact.scholar }})
+{{ contact.email }}{% if contact.academic_email %} | {{ contact.academic_email }}{% endif %}{% if contact.linkedin %} | [LinkedIn]({{ contact.linkedin }}){% endif %}{% if contact.github %} | [GitHub]({{ contact.github }}){% endif %}{% if contact.website %} | [Website]({{ contact.website }}){% endif %}{% if contact.scholar %} | [Google Scholar]({{ contact.scholar }}){% endif %}
 
 ---
 
