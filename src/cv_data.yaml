@@ -11,16 +11,16 @@ contact:
     es: "Buenos Aires, Argentina"
 
 titles:
-  en: "Ph.D. Candidate in Computer Science (UBA-CONICET) | University Teaching | Machine Learning | Computational Neuroscience"
-  es: "Doctorando en Ciencias de la Computacion (UBA-CONICET) | Docencia Universitaria | Machine Learning | Neurociencia Computacional"
+  en: "Ph.D. Candidate in Computer Science (UBA-CONICET) | University Teaching | Data Science and Machine Learning | Computational Neuroscience"
+  es: "Doctorando en Ciencias de la Computacion (UBA-CONICET) | Docencia Universitaria | Ciencia de Datos y Machine Learning | Neurociencia Computacional"
 
 headers:
   profile:
     en: "Professional Profile"
     es: "Perfil Profesional"
   experience:
-    en: "Relevant Experience"
-    es: "Experiencia Relevante"
+    en: "Teaching and Academic Background"
+    es: "Antecedentes Docentes y Academicos"
   education:
     en: "Education"
     es: "Educación"
@@ -36,27 +36,8 @@ profile:
   es: "Doctorando en Ciencias de la Computacion en la UBA y becario doctoral de CONICET, con un perfil centrado en la docencia universitaria y la investigacion academica. Trabajo entre el Laboratorio de Inteligencia Artificial Aplicada y el Instituto de Calculo Rebeca Cherep de Guber en modelos computacionales de movimientos oculares durante tareas de busqueda visual en escenas naturales. Mi trabajo combina Machine Learning, modelado bayesiano y neurociencia computacional, junto con actividad docente sostenida en materias de grado del Departamento de Computacion de la UBA."
 
 experience:
-  - id: "graduate_researcher"
-    title:
-      en: "Graduate Researcher"
-      es: "Investigador en Formación"
-    company:
-      en: "LIAA / ICC / Rebeca Cherep de Guber Institute of Calculus (UBA-CONICET)"
-      es: "LIAA / ICC / Instituto de Cálculo Rebeca Cherep de Guber (UBA-CONICET)"
-    period:
-      en: "2018 - Present"
-      es: "2018 - Actualidad"
-    highlights:
-      en:
-        - "**Doctoral work:** computational models of eye movements and visual search in natural scenes under the supervision of Juan Kamienkowski."
-        - "**Funding:** CONICET internal doctoral fellowship (2018 - 2024)."
-        - "Research interests include Machine Learning, computational neuroscience, eye tracking, deep learning, and Bayesian modeling."
-      es:
-        - "**Trabajo doctoral:** modelos computacionales de movimientos oculares y búsqueda visual en escenas naturales bajo la dirección de Juan Kamienkowski."
-        - "**Financiamiento:** beca interna doctoral CONICET (2018 - 2024)."
-        - "Intereses de investigación en Machine Learning, neurociencia computacional, eye tracking, deep learning y modelado bayesiano."
-
   - id: "university_teaching"
+    section: "teaching"
     title:
       en: "JTP / Teaching Assistant / University Instructor"
       es: "JTP / Docente Auxiliar / Ayudante de Primera"
@@ -80,43 +61,8 @@ experience:
         - "**Ayudante de 1ra** en **Organizacion del Computador** entre agosto de 2021 y diciembre de 2023."
         - "Experiencia docente universitaria previa en **Matematica (CBC UBA)** entre 2013 y 2021."
 
-  - id: "professional_experience"
-    title:
-      en: "Research Data Scientist"
-      es: "Research Data Scientist"
-    company:
-      en: "Everything ALS"
-      es: "Everything ALS"
-    period:
-      en: "March 2024 - Present"
-      es: "Marzo 2024 - Actualidad"
-    highlights:
-      en:
-        - "Research Data Scientist working on data-driven analysis in the context of amyotrophic lateral sclerosis."
-      es:
-        - "Research Data Scientist trabajando en analisis orientado por datos en el contexto de esclerosis lateral amiotrofica."
-
-  - id: "open_research_resources"
-    title:
-      en: "Open Research Software and Teaching Resources"
-      es: "Software Abierto de Investigación y Recursos Docentes"
-    company:
-      en: "GitHub / NeuroLIAA"
-      es: "GitHub / NeuroLIAA"
-    period:
-      en: "2022 - Present"
-      es: "2022 - Actualidad"
-    highlights:
-      en:
-        - "Contributor to **ViSioNS**, a benchmark for computational models of human visual search in natural scenes."
-        - "Contributor to **sIBS**, a Bayesian visual-search model for natural scenes."
-        - "Author of the public course repository **Data Processing and Visualization with Python - SAN 2022**."
-      es:
-        - "Contribuidor en **ViSioNS**, benchmark para modelos computacionales de búsqueda visual humana en escenas naturales."
-        - "Contribuidor en **sIBS**, modelo bayesiano de búsqueda visual en escenas naturales."
-        - "Autor del repositorio público del curso **Procesamiento y Visualización de Datos con Python - SAN 2022**."
-
   - id: "peer_review"
+    section: "teaching"
     title:
       en: "Peer Reviewer"
       es: "Revisor Académico"
@@ -137,6 +83,7 @@ experience:
         - "Revisor de trabajos para el workshop **Shared Visual Representations in Humans and Machines** de **NeurIPS 2021**."
 
   - id: "mentorship"
+    section: "teaching"
     title:
       en: "Thesis Co-supervisor and Undergraduate Research Mentor"
       es: "Codirector de Tesis y Mentor de Investigación de Grado"
@@ -155,6 +102,65 @@ experience:
         - "Codirección de las tesis de Licenciatura en Ciencias de la Computación de **Fermín Travi** y **Gonzalo Ruarte** (defendidas en 2023)."
         - "Mentor de la beca de iniciación a la investigación de **Gianluca Capelo** sobre diferencias individuales en funciones ejecutivas (desde 2024)."
         - "Mentor de la beca de iniciación a la investigación de **Fermín Travi** sobre modelos computacionales de búsqueda visual humana (2021)."
+
+  - id: "graduate_researcher"
+    section: "research"
+    title:
+      en: "Graduate Researcher"
+      es: "Investigador en Formación"
+    company:
+      en: "LIAA / ICC / Rebeca Cherep de Guber Institute of Calculus (UBA-CONICET)"
+      es: "LIAA / ICC / Instituto de Cálculo Rebeca Cherep de Guber (UBA-CONICET)"
+    period:
+      en: "2018 - Present"
+      es: "2018 - Actualidad"
+    highlights:
+      en:
+        - "**Doctoral work:** computational models of eye movements and visual search in natural scenes under the supervision of Juan Kamienkowski."
+        - "**Funding:** CONICET internal doctoral fellowship (2018 - 2024)."
+        - "Research interests include Machine Learning, computational neuroscience, eye tracking, deep learning, and Bayesian modeling."
+      es:
+        - "**Trabajo doctoral:** modelos computacionales de movimientos oculares y búsqueda visual en escenas naturales bajo la dirección de Juan Kamienkowski."
+        - "**Financiamiento:** beca interna doctoral CONICET (2018 - 2024)."
+        - "Intereses de investigación en Machine Learning, neurociencia computacional, eye tracking, deep learning y modelado bayesiano."
+
+  - id: "open_research_resources"
+    section: "research"
+    title:
+      en: "Open Research Software and Teaching Resources"
+      es: "Software Abierto de Investigación y Recursos Docentes"
+    company:
+      en: "GitHub / NeuroLIAA"
+      es: "GitHub / NeuroLIAA"
+    period:
+      en: "2022 - Present"
+      es: "2022 - Actualidad"
+    highlights:
+      en:
+        - "Contributor to **ViSioNS**, a benchmark for computational models of human visual search in natural scenes."
+        - "Contributor to **sIBS**, a Bayesian visual-search model for natural scenes."
+        - "Author of the public course repository **Data Processing and Visualization with Python - SAN 2022**."
+      es:
+        - "Contribuidor en **ViSioNS**, benchmark para modelos computacionales de búsqueda visual humana en escenas naturales."
+        - "Contribuidor en **sIBS**, modelo bayesiano de búsqueda visual en escenas naturales."
+        - "Autor del repositorio público del curso **Procesamiento y Visualización de Datos con Python - SAN 2022**."
+
+  - id: "professional_experience"
+    section: "research"
+    title:
+      en: "Research Data Scientist"
+      es: "Research Data Scientist"
+    company:
+      en: "Everything ALS"
+      es: "Everything ALS"
+    period:
+      en: "March 2024 - Present"
+      es: "Marzo 2024 - Actualidad"
+    highlights:
+      en:
+        - "Research Data Scientist working on data-driven analysis in the context of amyotrophic lateral sclerosis."
+      es:
+        - "Research Data Scientist trabajando en analisis orientado por datos en el contexto de esclerosis lateral amiotrofica."
 
 education:
   primary:
