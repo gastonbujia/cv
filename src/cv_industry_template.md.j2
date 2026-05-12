@@ -8,6 +8,12 @@
 {% endfor %}
 
 {%- endmacro %}
+<!--
+variant: industry
+created: {{ industry.metadata.created }}
+target: {{ industry.metadata.target[lang] }}
+target_reference: {{ industry.metadata.target_reference[lang] }}
+-->
 # {{ contact.name }}
 **{{ industry.title[lang] }}**
 
@@ -31,7 +37,7 @@
 
 ## {{ industry.headers.experience[lang] }}
 
-{% set primary_experience_ids = ["professional_experience", "graduate_researcher", "open_research_resources"] %}
+{% set primary_experience_ids = ["professional_experience", "graduate_researcher"] %}
 {% for target_id in primary_experience_ids %}
 {% for job in experience if job.id == target_id %}
 {{ render_job(job, lang) }}
@@ -42,7 +48,7 @@
 
 ## {{ industry.headers.teaching[lang] }}
 
-{% set teaching_experience_ids = ["university_teaching", "graduate_teaching", "mentorship"] %}
+{% set teaching_experience_ids = ["university_teaching", "mentorship"] %}
 {% for target_id in teaching_experience_ids %}
 {% for job in experience if job.id == target_id %}
 {{ render_job(job, lang) }}
@@ -51,11 +57,22 @@
 
 ---
 
+## {{ industry.headers.projects[lang] }}
+
+{% for project in industry.key_projects %}
+*   **{{ project["name"][lang] }}:** {{ project["description"][lang] }}
+{% endfor %}
+
+---
+
 ## {{ industry.headers.education[lang] }}
 
 {% for edu in education.primary %}
-*   {{ edu.title[lang] }}
+*   {{ edu.industry_title[lang] if edu.industry_title is defined else edu.title[lang] }}
     * {{ edu.description[lang] }}
+{% if edu.industry_note is defined %}
+    * {{ edu.industry_note[lang] }}
+{% endif %}
 {% endfor %}
 
 {% if publications %}

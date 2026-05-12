@@ -19,12 +19,12 @@ pandoc "src/english/${CV_BASENAME}_EN.md" \
 
 pandoc "src/${CV_BASENAME}_Industry.md" \
     -H assets/disable_hyphens.tex \
-    -V geometry:margin=1in \
+    -V geometry:margin=0.75in \
     -o "output/${CV_BASENAME}_Industry_ES.pdf"
 
 pandoc "src/english/${CV_BASENAME}_Industry_EN.md" \
     -H assets/disable_hyphens.tex \
-    -V geometry:margin=1in \
+    -V geometry:margin=0.75in \
     -o "output/${CV_BASENAME}_Industry_EN.pdf"
 
 echo "PDFs generados exitosamente en la carpeta 'output/':"

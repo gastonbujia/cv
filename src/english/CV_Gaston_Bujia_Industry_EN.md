@@ -1,6 +1,12 @@
 
+<!--
+variant: industry
+created: 2026-05-12
+target: Data Scientist / Machine Learning / Predictive Modeling
+target_reference: General industry profile with emphasis on clinical data science, deployed predictive models, and computational statistics.
+-->
 # Gaston Elian Bujia
-**Research Data Scientist | Machine Learning | Python | Computational Modeling**
+**Data Scientist | Machine Learning | Predictive Modeling | Python | Computational Statistics**
 
 Buenos Aires, Argentina | gastonbujia@gmail.com | [LinkedIn](https://www.linkedin.com/in/gaston-bujia/) | [GitHub](https://github.com/gastonbujia)
 
@@ -8,22 +14,22 @@ Buenos Aires, Argentina | gastonbujia@gmail.com | [LinkedIn](https://www.linkedi
 
 ## Industry Profile
 
-Data Scientist with a strong background in mathematics, machine learning, and applied research. I combine hands-on experience in data-driven analysis with doctoral training in computational modeling, Bayesian methods, eye-tracking data, and deep learning. I am especially interested in roles where rigorous quantitative thinking, Python-based analysis, and clear communication can turn complex data into useful decisions or research products.
+Data Scientist with a strong background in mathematics, machine learning, and applied research. I combine hands-on experience building and shipping predictive models, including a production-deployed clinical scoring system, with doctoral training in computational modeling, Bayesian methods, and deep learning. I am especially interested in roles where rigorous quantitative thinking, Python-based analysis, and clear communication can turn complex data into actionable decisions.
 
 ---
 
 ## Core Skills
 
 
-*   **Python and data analysis:** Python, NumPy, Pandas, SciPy, Jupyter Notebooks, data cleaning, exploratory analysis, and reproducible analysis workflows.
+*   **Python and ML stack:** Python, NumPy, Pandas, scikit-learn, XGBoost, PyTorch, HuggingFace Transformers, Weights & Biases, SciPy, Jupyter Notebooks.
 
-*   **Machine Learning:** scikit-learn, PyTorch, TensorFlow, deep learning, model evaluation, and applied predictive modeling.
+*   **Predictive modeling:** Deep learning, NLP/audio models, model evaluation, clinical scoring, disease progression monitoring, and low-data prediction problems.
 
-*   **Statistical and computational modeling:** Bayesian modeling, computational neuroscience, eye-tracking data, behavioral data, and simulation-based analysis.
+*   **Statistics:** Computational statistics, Bayesian modeling, linear mixed-effects models, survival analysis with lifelines and statsmodels, Kaplan-Meier analysis, Cox proportional hazards models.
 
 *   **Visualization and communication:** Matplotlib, Seaborn, Plotly, technical writing, teaching, and communication of quantitative results to technical audiences.
 
-*   **Tools:** Git, GitHub, LaTeX, open research software, and collaborative technical workflows.
+*   **Tools:** Git/GitHub, Docker containerization basics, LaTeX, open research software, and collaborative technical workflows.
 
 *   **Languages:** Spanish native; English professional working proficiency.
 
@@ -40,9 +46,13 @@ Data Scientist with a strong background in mathematics, machine learning, and ap
 
 
 
-*   Data-driven analysis in the context of amyotrophic lateral sclerosis research.
+*   Developed a dysarthria severity scoring model using Whisper (HuggingFace Transformers), PyTorch, and scikit-learn; the model is deployed in production and integrated into clinical trial workflows.
 
-*   Applied quantitative modeling and exploratory analysis to complex biomedical research data.
+*   Built CNN and transformer-based predictive models on accelerometer and voice signals for disease progression monitoring in ALS patients.
+
+*   Applied survival analysis with Kaplan-Meier curves and Cox proportional hazards models using lifelines and statsmodels to study medication impact and time-to-event outcomes.
+
+*   Collaborated directly with clinical scientists to translate research requirements into ML solutions for complex clinical datasets.
 
 
 
@@ -52,25 +62,11 @@ Data Scientist with a strong background in mathematics, machine learning, and ap
 
 
 
-*   Developed and evaluated computational models for eye-movement prediction and visual search in natural scenes.
+*   Designed and evaluated end-to-end ML pipelines for predicting sequential human behavior from real experimental datasets, combining deep learning, Bayesian modeling, CNN-based saliency models, and reproducible analysis workflows.
 
-*   Worked with behavioral and eye-tracking data using machine learning, Bayesian modeling, and deep learning methods.
+*   Contributed to **ViSioNS** (NeurIPS 2022), an open-source benchmark for evaluating computational models, analogous to model evaluation frameworks used in production ML.
 
-*   Designed reproducible analyses for complex experimental data in an applied artificial intelligence research environment.
-
-
-
-
-#### Open Research Software and Teaching Resources
-**GitHub / NeuroLIAA** | *2022 - Present*
-
-
-
-*   Contributor to **ViSioNS**, a benchmark used to evaluate computational models of human visual search in natural scenes.
-
-*   Contributor to **sIBS**, a Bayesian visual-search model for naturalistic stimuli.
-
-*   Published open educational material on data processing and visualization with Python.
+*   Developed **sIBS**, a probabilistic visual-search model combining Bayesian inference and saliency maps, published in *Frontiers in Systems Neuroscience*.
 
 
 
@@ -94,16 +90,6 @@ Data Scientist with a strong background in mathematics, machine learning, and ap
 
 
 
-#### Graduate Teaching Assistant
-**Master's Program in Data Mining and Knowledge Discovery, School of Exact and Natural Sciences, University of Buenos Aires** | *2021 - 2024*
-
-
-
-*   Graduate-level teaching in **Machine Learning** for a data mining and knowledge discovery master's program.
-
-
-
-
 #### Thesis Co-supervisor and Undergraduate Research Mentor
 **University of Buenos Aires** | *2021 - Present*
 
@@ -118,14 +104,30 @@ Data Scientist with a strong background in mathematics, machine learning, and ap
 
 ---
 
+## Key Projects
+
+
+*   **Dysarthria scoring model (Everything ALS):** Production-deployed clinical NLP/audio model built with Whisper, PyTorch, and scikit-learn.
+
+*   **ViSioNS (NeurIPS 2022):** Open-source benchmark for computational models of human visual search, adopted by the research community.
+
+*   **Recommendation systems (B.Sc. thesis):** Implemented Factorization Machines to address the cold-start problem in low-data recommendation scenarios.
+
+
+---
+
 ## Education
 
 
-*   **Ph.D. in Computer Science** | UBA (2018 - Present)
+*   **Ph.D. in Computer Science** | UBA (2018 - 2026)
     * Doctoral thesis titled *Computational aspects of human vision: prediction of eye movements during visual search*. Expected defense between July and August 2026. Advisor: Dr. Juan Kamienkowski. Co-advisor: Dr. Guillermo Solovey.
+
 
 *   **B.Sc. in Mathematics** | UBA (2018)
     * Applied mathematics focus. Thesis: *Recommendation systems: Factorization Machines and the cold-start problem.* Advisor: Dr. Leandro Lombardi.
+
+    * Relevant to recommender systems, embeddings, and ranking problems.
+
 
 
 

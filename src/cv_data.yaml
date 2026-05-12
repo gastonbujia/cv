@@ -15,12 +15,20 @@ titles:
   es: "Doctorando en Ciencias de la Computación (UBA-CONICET) | Docencia Universitaria | Ciencia de Datos y Machine Learning | Neurociencia Computacional"
 
 industry:
+  metadata:
+    created: "2026-05-12"
+    target:
+      en: "Data Scientist / Machine Learning / Predictive Modeling"
+      es: "Data Scientist / Machine Learning / Modelado Predictivo"
+    target_reference:
+      en: "General industry profile with emphasis on clinical data science, deployed predictive models, and computational statistics."
+      es: "Perfil industrial general con énfasis en datos clínicos, modelos predictivos desplegados y estadística computacional."
   title:
-    en: "Research Data Scientist | Machine Learning | Python | Computational Modeling"
-    es: "Research Data Scientist | Machine Learning | Python | Modelado Computacional"
+    en: "Data Scientist | Machine Learning | Predictive Modeling | Python | Computational Statistics"
+    es: "Data Scientist | Machine Learning | Modelado Predictivo | Python | Estadística Computacional"
   profile:
-    en: "Data Scientist with a strong background in mathematics, machine learning, and applied research. I combine hands-on experience in data-driven analysis with doctoral training in computational modeling, Bayesian methods, eye-tracking data, and deep learning. I am especially interested in roles where rigorous quantitative thinking, Python-based analysis, and clear communication can turn complex data into useful decisions or research products."
-    es: "Data Scientist con formación sólida en matemática, machine learning e investigación aplicada. Combino experiencia en análisis orientado por datos con entrenamiento doctoral en modelado computacional, métodos bayesianos, datos de eye-tracking y deep learning. Me interesan especialmente roles donde el pensamiento cuantitativo riguroso, el análisis en Python y la comunicación clara permitan transformar datos complejos en decisiones o productos de investigación útiles."
+    en: "Data Scientist with a strong background in mathematics, machine learning, and applied research. I combine hands-on experience building and shipping predictive models, including a production-deployed clinical scoring system, with doctoral training in computational modeling, Bayesian methods, and deep learning. I am especially interested in roles where rigorous quantitative thinking, Python-based analysis, and clear communication can turn complex data into actionable decisions."
+    es: "Data Scientist con formación sólida en matemática, machine learning e investigación aplicada. Combino experiencia construyendo y desplegando modelos predictivos, incluido un sistema de scoring clínico en producción, con entrenamiento doctoral en modelado computacional, métodos bayesianos y deep learning. Me interesan especialmente roles donde el pensamiento cuantitativo riguroso, el análisis en Python y la comunicación clara permitan transformar datos complejos en decisiones accionables."
   headers:
     profile:
       en: "Industry Profile"
@@ -34,6 +42,9 @@ industry:
     teaching:
       en: "Technical Teaching and Mentoring"
       es: "Docencia Técnica y Mentoría"
+    projects:
+      en: "Key Projects"
+      es: "Proyectos Clave"
     education:
       en: "Education"
       es: "Formación"
@@ -42,23 +53,23 @@ industry:
       es: "Producción Seleccionada"
   skill_groups:
     - label:
-        en: "Python and data analysis"
-        es: "Python y análisis de datos"
+        en: "Python and ML stack"
+        es: "Stack Python y ML"
       items:
-        en: "Python, NumPy, Pandas, SciPy, Jupyter Notebooks, data cleaning, exploratory analysis, and reproducible analysis workflows."
-        es: "Python, NumPy, Pandas, SciPy, Jupyter Notebooks, limpieza de datos, análisis exploratorio y flujos reproducibles de análisis."
+        en: "Python, NumPy, Pandas, scikit-learn, XGBoost, PyTorch, HuggingFace Transformers, Weights & Biases, SciPy, Jupyter Notebooks."
+        es: "Python, NumPy, Pandas, scikit-learn, XGBoost, PyTorch, HuggingFace Transformers, Weights & Biases, SciPy, Jupyter Notebooks."
     - label:
-        en: "Machine Learning"
-        es: "Machine Learning"
+        en: "Predictive modeling"
+        es: "Modelado predictivo"
       items:
-        en: "scikit-learn, PyTorch, TensorFlow, deep learning, model evaluation, and applied predictive modeling."
-        es: "scikit-learn, PyTorch, TensorFlow, deep learning, evaluación de modelos y modelado predictivo aplicado."
+        en: "Deep learning, NLP/audio models, model evaluation, clinical scoring, disease progression monitoring, and low-data prediction problems."
+        es: "Deep learning, modelos NLP/audio, evaluación de modelos, scoring clínico, monitoreo de progresión de enfermedad y problemas predictivos con pocos datos."
     - label:
-        en: "Statistical and computational modeling"
-        es: "Modelado estadístico y computacional"
+        en: "Statistics"
+        es: "Estadística"
       items:
-        en: "Bayesian modeling, computational neuroscience, eye-tracking data, behavioral data, and simulation-based analysis."
-        es: "Modelado bayesiano, neurociencia computacional, datos de eye-tracking, datos conductuales y análisis basado en simulaciones."
+        en: "Computational statistics, Bayesian modeling, linear mixed-effects models, survival analysis with lifelines and statsmodels, Kaplan-Meier analysis, Cox proportional hazards models."
+        es: "Estadística computacional, modelado bayesiano, modelos lineales de efectos mixtos, análisis de supervivencia con lifelines y statsmodels, análisis Kaplan-Meier, modelos de riesgos proporcionales de Cox."
     - label:
         en: "Visualization and communication"
         es: "Visualización y comunicación"
@@ -69,14 +80,33 @@ industry:
         en: "Tools"
         es: "Herramientas"
       items:
-        en: "Git, GitHub, LaTeX, open research software, and collaborative technical workflows."
-        es: "Git, GitHub, LaTeX, software abierto de investigación y flujos colaborativos de trabajo técnico."
+        en: "Git/GitHub, Docker containerization basics, LaTeX, open research software, and collaborative technical workflows."
+        es: "Git/GitHub, bases de containerización con Docker, LaTeX, software abierto de investigación y flujos colaborativos de trabajo técnico."
     - label:
         en: "Languages"
         es: "Idiomas"
       items:
         en: "Spanish native; English professional working proficiency."
         es: "Español nativo; inglés profesional."
+  key_projects:
+    - name:
+        en: "Dysarthria scoring model (Everything ALS)"
+        es: "Modelo de scoring de disartria (Everything ALS)"
+      description:
+        en: "Production-deployed clinical NLP/audio model built with Whisper, PyTorch, and scikit-learn."
+        es: "Modelo clínico NLP/audio desplegado en producción, construido con Whisper, PyTorch y scikit-learn."
+    - name:
+        en: "ViSioNS (NeurIPS 2022)"
+        es: "ViSioNS (NeurIPS 2022)"
+      description:
+        en: "Open-source benchmark for computational models of human visual search, adopted by the research community."
+        es: "Benchmark open source para modelos computacionales de búsqueda visual humana, adoptado por la comunidad de investigación."
+    - name:
+        en: "Recommendation systems (B.Sc. thesis)"
+        es: "Sistemas de recomendación (tesis de licenciatura)"
+      description:
+        en: "Implemented Factorization Machines to address the cold-start problem in low-data recommendation scenarios."
+        es: "Implementación de Factorization Machines para abordar el problema de cold-start en escenarios de recomendación con pocos datos."
 
 headers:
   profile:
@@ -230,13 +260,13 @@ experience:
         - "Intereses de investigación en Machine Learning, neurociencia computacional, eye tracking, deep learning y modelado bayesiano."
     industry_highlights:
       en:
-        - "Developed and evaluated computational models for eye-movement prediction and visual search in natural scenes."
-        - "Worked with behavioral and eye-tracking data using machine learning, Bayesian modeling, and deep learning methods."
-        - "Designed reproducible analyses for complex experimental data in an applied artificial intelligence research environment."
+        - "Designed and evaluated end-to-end ML pipelines for predicting sequential human behavior from real experimental datasets, combining deep learning, Bayesian modeling, CNN-based saliency models, and reproducible analysis workflows."
+        - "Contributed to **ViSioNS** (NeurIPS 2022), an open-source benchmark for evaluating computational models, analogous to model evaluation frameworks used in production ML."
+        - "Developed **sIBS**, a probabilistic visual-search model combining Bayesian inference and saliency maps, published in *Frontiers in Systems Neuroscience*."
       es:
-        - "Desarrollo y evaluación de modelos computacionales para predicción de movimientos oculares y búsqueda visual en escenas naturales."
-        - "Trabajo con datos conductuales y de eye-tracking usando machine learning, modelado bayesiano y métodos de deep learning."
-        - "Diseño de análisis reproducibles para datos experimentales complejos en un entorno de investigación aplicada en inteligencia artificial."
+        - "Diseño y evaluación de pipelines end-to-end de ML para predecir comportamiento humano secuencial sobre datos experimentales reales, combinando deep learning, modelado bayesiano, modelos de saliencia basados en CNNs y flujos reproducibles de análisis."
+        - "Contribución a **ViSioNS** (NeurIPS 2022), benchmark open source para evaluar modelos computacionales, análogo a frameworks de evaluación de modelos usados en ML productivo."
+        - "Desarrollo de **sIBS**, modelo probabilístico de búsqueda visual que combina inferencia bayesiana y mapas de saliencia, publicado en *Frontiers in Systems Neuroscience*."
 
   - id: "open_research_resources"
     section: "research"
@@ -286,17 +316,24 @@ experience:
         - "Research Data Scientist trabajando en análisis orientado por datos en el contexto de esclerosis lateral amiotrófica."
     industry_highlights:
       en:
-        - "Data-driven analysis in the context of amyotrophic lateral sclerosis research."
-        - "Applied quantitative modeling and exploratory analysis to complex biomedical research data."
+        - "Developed a dysarthria severity scoring model using Whisper (HuggingFace Transformers), PyTorch, and scikit-learn; the model is deployed in production and integrated into clinical trial workflows."
+        - "Built CNN and transformer-based predictive models on accelerometer and voice signals for disease progression monitoring in ALS patients."
+        - "Applied survival analysis with Kaplan-Meier curves and Cox proportional hazards models using lifelines and statsmodels to study medication impact and time-to-event outcomes."
+        - "Collaborated directly with clinical scientists to translate research requirements into ML solutions for complex clinical datasets."
       es:
-        - "Análisis orientado por datos en el contexto de investigación sobre esclerosis lateral amiotrófica."
-        - "Aplicación de modelado cuantitativo y análisis exploratorio a datos biomédicos complejos."
+        - "Desarrollo de un modelo de scoring de severidad de disartria usando Whisper (HuggingFace Transformers), PyTorch y scikit-learn; el modelo está desplegado en producción e integrado a flujos de ensayos clínicos."
+        - "Construcción de modelos predictivos basados en CNNs y transformers sobre señales de acelerómetro y voz para monitoreo de progresión de enfermedad en pacientes con esclerosis lateral amiotrófica."
+        - "Aplicación de análisis de supervivencia con curvas Kaplan-Meier y modelos de riesgos proporcionales de Cox usando lifelines y statsmodels para estudiar impacto de medicación y outcomes time-to-event."
+        - "Colaboración directa con científicos clínicos para traducir requerimientos de investigación en soluciones de ML sobre datasets clínicos complejos."
 
 education:
   primary:
     - title:
         en: "**Ph.D. in Computer Science** | UBA (2018 - Present)"
         es: "**Doctorado en Ciencias de la Computación** | UBA (2018 - Actualidad)"
+      industry_title:
+        en: "**Ph.D. in Computer Science** | UBA (2018 - 2026)"
+        es: "**Doctorado en Ciencias de la Computación** | UBA (2018 - 2026)"
       description:
         en: "Doctoral thesis titled *Computational aspects of human vision: prediction of eye movements during visual search*. Expected defense between July and August 2026. Advisor: Dr. Juan Kamienkowski. Co-advisor: Dr. Guillermo Solovey."
         es: "Tesis doctoral titulada *Aspectos computacionales de la visión humana: predicción de movimientos oculares durante la búsqueda visual*. Fecha estimada de defensa: entre julio y agosto de 2026. Director: Dr. Juan Kamienkowski. Codirector: Dr. Guillermo Solovey."
@@ -306,6 +343,9 @@ education:
       description:
         en: "Applied mathematics focus. Thesis: *Recommendation systems: Factorization Machines and the cold-start problem.* Advisor: Dr. Leandro Lombardi."
         es: "Orientación en matemática aplicada. Tesis: *Sistemas de recomendación: Máquinas de factorización y el problema del arranque en frío.* Director: Dr. Leandro Lombardi."
+      industry_note:
+        en: "Relevant to recommender systems, embeddings, and ranking problems."
+        es: "Relevante para sistemas de recomendación, embeddings y problemas de ranking."
 
   additional_header:
     en: ""
