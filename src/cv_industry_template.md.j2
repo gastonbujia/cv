@@ -1,0 +1,69 @@
+{% macro render_job(job, lang) -%}
+#### {{ job.title[lang] }}
+**{{ job.company[lang] }}** | *{{ job.period[lang] if job.period is mapping else job.period }}*
+
+{% set bullets = job.industry_highlights[lang] if job.industry_highlights is defined else job.highlights[lang] %}
+{% for hl in bullets %}
+*   {{ hl }}
+{% endfor %}
+
+{%- endmacro %}
+# {{ contact.name }}
+**{{ industry.title[lang] }}**
+
+{{ contact.location[lang] }} | {{ contact.email }}{% if contact.linkedin %} | [LinkedIn]({{ contact.linkedin }}){% endif %}{% if contact.github %} | [GitHub]({{ contact.github }}){% endif %}{% if contact.website %} | [Website]({{ contact.website }}){% endif %}
+
+---
+
+## {{ industry.headers.profile[lang] }}
+
+{{ industry.profile[lang] }}
+
+---
+
+## {{ industry.headers.skills[lang] }}
+
+{% for group in industry.skill_groups %}
+*   **{{ group["label"][lang] }}:** {{ group["items"][lang] }}
+{% endfor %}
+
+---
+
+## {{ industry.headers.experience[lang] }}
+
+{% set primary_experience_ids = ["professional_experience", "graduate_researcher", "open_research_resources"] %}
+{% for target_id in primary_experience_ids %}
+{% for job in experience if job.id == target_id %}
+{{ render_job(job, lang) }}
+{% endfor %}
+{% endfor %}
+
+---
+
+## {{ industry.headers.teaching[lang] }}
+
+{% set teaching_experience_ids = ["university_teaching", "graduate_teaching", "mentorship"] %}
+{% for target_id in teaching_experience_ids %}
+{% for job in experience if job.id == target_id %}
+{{ render_job(job, lang) }}
+{% endfor %}
+{% endfor %}
+
+---
+
+## {{ industry.headers.education[lang] }}
+
+{% for edu in education.primary %}
+*   {{ edu.title[lang] }}
+    * {{ edu.description[lang] }}
+{% endfor %}
+
+{% if publications %}
+---
+
+## {{ industry.headers.publications[lang] }}
+
+{% for pub in publications[:3] %}
+{{ loop.index }}.  {{ pub[lang] }}
+{% endfor %}
+{% endif %}

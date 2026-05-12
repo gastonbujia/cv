@@ -10,10 +10,13 @@ from pybtex.database import parse_file
 SRC_DIR = os.path.dirname(os.path.abspath(__file__))
 DATA_FILE = os.path.join(SRC_DIR, "cv_data.yaml")
 PUBLICATIONS_FILE = os.path.join(SRC_DIR, "publications.bib")
-TEMPLATE_FILE = "cv_template.md.j2"
+ACADEMIC_TEMPLATE_FILE = "cv_template.md.j2"
+INDUSTRY_TEMPLATE_FILE = "cv_industry_template.md.j2"
 CV_BASENAME = "CV_Gaston_Bujia"
 OUT_ES = os.path.join(SRC_DIR, f"{CV_BASENAME}.md")
 OUT_EN = os.path.join(SRC_DIR, "english", f"{CV_BASENAME}_EN.md")
+OUT_INDUSTRY_ES = os.path.join(SRC_DIR, f"{CV_BASENAME}_Industry.md")
+OUT_INDUSTRY_EN = os.path.join(SRC_DIR, "english", f"{CV_BASENAME}_Industry_EN.md")
 LATEX_TO_TEXT = LatexNodes2Text()
 EXCLUDED_PUBLICATION_TYPES = {"phdthesis", "mastersthesis"}
 
@@ -152,18 +155,21 @@ def build_cvs():
     data["publications"] = build_publications()
 
     env = Environment(loader=FileSystemLoader(SRC_DIR))
-    template = env.get_template(TEMPLATE_FILE)
 
-    md_es = template.render(lang="es", **data)
-    with open(OUT_ES, "w", encoding="utf-8") as f:
-        f.write(md_es)
-    print(f"Generated Spanish CV: {OUT_ES}")
+    outputs = [
+        (ACADEMIC_TEMPLATE_FILE, "es", OUT_ES, "Spanish CV"),
+        (ACADEMIC_TEMPLATE_FILE, "en", OUT_EN, "English CV"),
+        (INDUSTRY_TEMPLATE_FILE, "es", OUT_INDUSTRY_ES, "Spanish industry CV"),
+        (INDUSTRY_TEMPLATE_FILE, "en", OUT_INDUSTRY_EN, "English industry CV"),
+    ]
 
-    md_en = template.render(lang="en", **data)
-    os.makedirs(os.path.dirname(OUT_EN), exist_ok=True)
-    with open(OUT_EN, "w", encoding="utf-8") as f:
-        f.write(md_en)
-    print(f"Generated English CV: {OUT_EN}")
+    for template_file, lang, output_path, label in outputs:
+        template = env.get_template(template_file)
+        rendered = template.render(lang=lang, **data)
+        os.makedirs(os.path.dirname(output_path), exist_ok=True)
+        with open(output_path, "w", encoding="utf-8") as f:
+            f.write(rendered)
+        print(f"Generated {label}: {output_path}")
 
 
 if __name__ == "__main__":

@@ -34,6 +34,18 @@ pandoc "src\english\${cvBasename}_EN.md" `
     -V "geometry:margin=1in" `
     -o "output\${cvBasename}_EN.pdf"
 
+pandoc "src\${cvBasename}_Industry.md" `
+    -H "assets\disable_hyphens.tex" `
+    -V "geometry:margin=1in" `
+    -o "output\${cvBasename}_Industry_ES.pdf"
+
+pandoc "src\english\${cvBasename}_Industry_EN.md" `
+    -H "assets\disable_hyphens.tex" `
+    -V "geometry:margin=1in" `
+    -o "output\${cvBasename}_Industry_EN.pdf"
+
 Write-Host "PDFs generados exitosamente en la carpeta 'output/':"
 Write-Host "  - output\${cvBasename}_ES.pdf"
 Write-Host "  - output\${cvBasename}_EN.pdf"
+Write-Host "  - output\${cvBasename}_Industry_ES.pdf"
+Write-Host "  - output\${cvBasename}_Industry_EN.pdf"

@@ -11,10 +11,13 @@ The active generation flow is Markdown -> Pandoc -> LaTeX -> PDF. The generated 
 - `src/cv_data.yaml`: **The source of truth.** All CV content resides here.
 - `src/publications.bib`: Source of truth for the publications list.
 - `src/cv_template.md.j2`: The Jinja2 template dictating the layout of the Markdown file.
+- `src/cv_industry_template.md.j2`: Alternative Jinja2 template for an industry-oriented Data Science / AI CV.
 - `src/build_cv.py`: Python script that reads the YAML data, loads `publications.bib`, and renders the template to produce the English and Spanish Markdown files.
 - `generate_pdf.sh`: Main executable script. Runs the Python build and then uses Pandoc to generate the final PDFs.
 - `src/CV_Gaston_Bujia.md`: Auto-generated Spanish Markdown output.
 - `src/english/CV_Gaston_Bujia_EN.md`: Auto-generated English Markdown output.
+- `src/CV_Gaston_Bujia_Industry.md`: Auto-generated Spanish Markdown output for the industry-oriented CV.
+- `src/english/CV_Gaston_Bujia_Industry_EN.md`: Auto-generated English Markdown output for the industry-oriented CV.
 - `output/`: Directory where the final PDF files are generated.
 - `src/previous/`: Historical LaTeX material kept only as reference. It is not part of the current build.
 
