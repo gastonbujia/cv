@@ -73,7 +73,7 @@ Docente universitario y doctorando en Ciencias de la Computación en la UBA, con
 
 
 #### Investigador en Formación
-**Laboratorio de Inteligencia Artificial Aplicada (UBA-CONICET)** | *2018 - Actualidad*
+**Laboratorio de Inteligencia Artificial Aplicada (UBA-CONICET)** | *2018 - 2026*
 
 
 *   **Trabajo doctoral:** modelos computacionales de movimientos oculares y búsqueda visual en escenas naturales bajo la dirección del Dr. Juan Kamienkowski.
@@ -113,7 +113,7 @@ Docente universitario y doctorando en Ciencias de la Computación en la UBA, con
 ## Educación
 
 
-*   **Doctorado en Ciencias de la Computación** | UBA (2018 - Actualidad)
+*   **Doctorado en Ciencias de la Computación** | UBA (2018 - 2026)
     * Tesis doctoral titulada *Aspectos computacionales de la visión humana: predicción de movimientos oculares durante la búsqueda visual*. Fecha estimada de defensa: entre julio y agosto de 2026. Director: Dr. Juan Kamienkowski. Codirector: Dr. Guillermo Solovey.
 
 *   **Licenciatura en Matemática** | UBA (2018)

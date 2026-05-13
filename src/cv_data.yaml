@@ -51,43 +51,28 @@ industry:
     publications:
       en: "Selected Research Output"
       es: "Producción Seleccionada"
+    teaching_publications:
+      en: "Teaching & Publications"
+      es: "Docencia y Publicaciones"
   skill_groups:
     - label:
-        en: "Python and ML stack"
-        es: "Stack Python y ML"
+        en: "ML and data stack"
+        es: "Stack ML y datos"
       items:
-        en: "Python, NumPy, Pandas, scikit-learn, XGBoost, PyTorch, HuggingFace Transformers, Weights & Biases, SciPy, Jupyter Notebooks."
-        es: "Python, NumPy, Pandas, scikit-learn, XGBoost, PyTorch, HuggingFace Transformers, Weights & Biases, SciPy, Jupyter Notebooks."
+        en: "Python, NumPy, Pandas, scikit-learn, XGBoost, PyTorch, HuggingFace Transformers, Weights & Biases."
+        es: "Python, NumPy, Pandas, scikit-learn, XGBoost, PyTorch, HuggingFace Transformers, Weights & Biases."
     - label:
-        en: "Predictive modeling"
-        es: "Modelado predictivo"
+        en: "Modeling"
+        es: "Modelado"
       items:
-        en: "Deep learning, NLP/audio models, model evaluation, clinical scoring, disease progression monitoring, and low-data prediction problems."
-        es: "Deep learning, modelos NLP/audio, evaluación de modelos, scoring clínico, monitoreo de progresión de enfermedad y problemas predictivos con pocos datos."
+        en: "Predictive modeling, deep learning, NLP/audio models, survival analysis, Bayesian modeling, linear mixed-effects models."
+        es: "Modelado predictivo, deep learning, modelos NLP/audio, análisis de supervivencia, modelado bayesiano, modelos lineales de efectos mixtos."
     - label:
-        en: "Statistics"
-        es: "Estadística"
+        en: "Workflow"
+        es: "Workflow"
       items:
-        en: "Computational statistics, Bayesian modeling, linear mixed-effects models, survival analysis with lifelines and statsmodels, Kaplan-Meier analysis, Cox proportional hazards models."
-        es: "Estadística computacional, modelado bayesiano, modelos lineales de efectos mixtos, análisis de supervivencia con lifelines y statsmodels, análisis Kaplan-Meier, modelos de riesgos proporcionales de Cox."
-    - label:
-        en: "Visualization and communication"
-        es: "Visualización y comunicación"
-      items:
-        en: "Matplotlib, Seaborn, Plotly, technical writing, teaching, and communication of quantitative results to technical audiences."
-        es: "Matplotlib, Seaborn, Plotly, escritura técnica, docencia y comunicación de resultados cuantitativos a audiencias técnicas."
-    - label:
-        en: "Tools"
-        es: "Herramientas"
-      items:
-        en: "Git/GitHub, Docker containerization basics, LaTeX, open research software, and collaborative technical workflows."
-        es: "Git/GitHub, bases de containerización con Docker, LaTeX, software abierto de investigación y flujos colaborativos de trabajo técnico."
-    - label:
-        en: "Languages"
-        es: "Idiomas"
-      items:
-        en: "Spanish native; English professional working proficiency."
-        es: "Español nativo; inglés profesional."
+        en: "Git/GitHub, Docker basics, Jupyter, Matplotlib, Seaborn, Plotly, technical writing, cross-functional collaboration."
+        es: "Git/GitHub, bases de Docker, Jupyter, Matplotlib, Seaborn, Plotly, escritura técnica, colaboración interdisciplinaria."
   key_projects:
     - name:
         en: "Dysarthria scoring model (Everything ALS)"
@@ -107,6 +92,13 @@ industry:
       description:
         en: "Implemented Factorization Machines to address the cold-start problem in low-data recommendation scenarios."
         es: "Implementación de Factorization Machines para abordar el problema de cold-start en escenarios de recomendación con pocos datos."
+  teaching_publications_brief:
+    - en: "**Teaching:** Machine Learning and Computational Statistics at UBA; graduate ML teaching in the Data Mining and Knowledge Discovery master's program of the Department of Computer Science, FCEN-UBA."
+      es: "**Docencia:** Aprendizaje Automático y Estadística Computacional en UBA; docencia de posgrado en ML en la Maestría en Explotación de Datos y Descubrimiento del Conocimiento del Departamento de Computación de FCEN-UBA."
+    - en: "**Mentoring:** undergraduate thesis co-supervision and research mentorship in computational modeling and behavioral data."
+      es: "**Mentoría:** codirección de tesis y mentoría de investigación de grado en modelado computacional y datos conductuales."
+    - en: "**Publications:** Several publications in peer-reviewed scientific journals and conferences, including Scientific Reports, NeurIPS, and Frontiers in Systems Neuroscience."
+      es: "**Publicaciones:** varias publicaciones en revistas científicas y congresos con referato, incluyendo Scientific Reports, NeurIPS y Frontiers in Systems Neuroscience."
 
 headers:
   profile:
@@ -247,8 +239,8 @@ experience:
       en: "Applied Artificial Intelligence Lab (UBA-CONICET)"
       es: "Laboratorio de Inteligencia Artificial Aplicada (UBA-CONICET)"
     period:
-      en: "2018 - Present"
-      es: "2018 - Actualidad"
+      en: "2018 - 2026"
+      es: "2018 - 2026"
     highlights:
       en:
         - "**Doctoral work:** computational models of eye movements and visual search in natural scenes under the supervision of Dr. Juan Kamienkowski."
@@ -316,33 +308,41 @@ experience:
         - "Research Data Scientist trabajando en análisis orientado por datos en el contexto de esclerosis lateral amiotrófica."
     industry_highlights:
       en:
-        - "Developed a dysarthria severity scoring model using Whisper (HuggingFace Transformers), PyTorch, and scikit-learn; the model is deployed in production and integrated into clinical trial workflows."
-        - "Built CNN and transformer-based predictive models on accelerometer and voice signals for disease progression monitoring in ALS patients."
-        - "Applied survival analysis with Kaplan-Meier curves and Cox proportional hazards models using lifelines and statsmodels to study medication impact and time-to-event outcomes."
-        - "Collaborated directly with clinical scientists to translate research requirements into ML solutions for complex clinical datasets."
+        - "Developed a production-deployed dysarthria severity scoring model using Whisper, PyTorch, and scikit-learn, integrated into clinical trial workflows. Built predictive models using accelerometer and voice signals for ALS disease progression monitoring."
+        - "Applied survival analysis and collaborated with clinical scientists to translate research questions into ML solutions for complex clinical datasets."
       es:
-        - "Desarrollo de un modelo de scoring de severidad de disartria usando Whisper (HuggingFace Transformers), PyTorch y scikit-learn; el modelo está desplegado en producción e integrado a flujos de ensayos clínicos."
-        - "Construcción de modelos predictivos basados en CNNs y transformers sobre señales de acelerómetro y voz para monitoreo de progresión de enfermedad en pacientes con esclerosis lateral amiotrófica."
-        - "Aplicación de análisis de supervivencia con curvas Kaplan-Meier y modelos de riesgos proporcionales de Cox usando lifelines y statsmodels para estudiar impacto de medicación y outcomes time-to-event."
-        - "Colaboración directa con científicos clínicos para traducir requerimientos de investigación en soluciones de ML sobre datasets clínicos complejos."
+        - "Desarrollo de un modelo de scoring de severidad de disartria desplegado en producción usando Whisper, PyTorch y scikit-learn, integrado a flujos de ensayos clínicos. Construcción de modelos predictivos usando señales de acelerómetro y voz para monitoreo de progresión de esclerosis lateral amiotrófica."
+        - "Aplicación de análisis de supervivencia y colaboración con científicos clínicos para traducir preguntas de investigación en soluciones de ML sobre datasets clínicos complejos."
 
 education:
   primary:
     - title:
-        en: "**Ph.D. in Computer Science** | UBA (2018 - Present)"
-        es: "**Doctorado en Ciencias de la Computación** | UBA (2018 - Actualidad)"
+        en: "**Ph.D. in Computer Science** | UBA (2018 - 2026)"
+        es: "**Doctorado en Ciencias de la Computación** | UBA (2018 - 2026)"
       industry_title:
         en: "**Ph.D. in Computer Science** | UBA (2018 - 2026)"
         es: "**Doctorado en Ciencias de la Computación** | UBA (2018 - 2026)"
+      industry_brief:
+        en: "**Ph.D. in Computer Science**, UBA (2018 - 2026). Computational modeling, Bayesian methods, visual search."
+        es: "**Doctorado en Ciencias de la Computación**, UBA (2018 - 2026). Modelado computacional, métodos bayesianos, búsqueda visual."
       description:
         en: "Doctoral thesis titled *Computational aspects of human vision: prediction of eye movements during visual search*. Expected defense between July and August 2026. Advisor: Dr. Juan Kamienkowski. Co-advisor: Dr. Guillermo Solovey."
         es: "Tesis doctoral titulada *Aspectos computacionales de la visión humana: predicción de movimientos oculares durante la búsqueda visual*. Fecha estimada de defensa: entre julio y agosto de 2026. Director: Dr. Juan Kamienkowski. Codirector: Dr. Guillermo Solovey."
+      industry_description:
+        en: "Doctoral work on computational models for eye-movement prediction and visual search in natural scenes."
+        es: "Trabajo doctoral sobre modelos computacionales para predicción de movimientos oculares y búsqueda visual en escenas naturales."
     - title:
         en: "**B.Sc. in Mathematics** | UBA (2018)"
         es: "**Licenciatura en Matemática** | UBA (2018)"
       description:
         en: "Applied mathematics focus. Thesis: *Recommendation systems: Factorization Machines and the cold-start problem.* Advisor: Dr. Leandro Lombardi."
         es: "Orientación en matemática aplicada. Tesis: *Sistemas de recomendación: Máquinas de factorización y el problema del arranque en frío.* Director: Dr. Leandro Lombardi."
+      industry_brief:
+        en: "**B.Sc. in Mathematics**, UBA (2018). Recommendation systems, Factorization Machines, cold-start."
+        es: "**Licenciatura en Matemática**, UBA (2018). Sistemas de recomendación, Factorization Machines, cold-start."
+      industry_description:
+        en: "Applied mathematics focus; thesis on recommendation systems and Factorization Machines."
+        es: "Orientación en matemática aplicada; tesis sobre sistemas de recomendación y Factorization Machines."
       industry_note:
         en: "Relevant to recommender systems, embeddings, and ranking problems."
         es: "Relevante para sistemas de recomendación, embeddings y problemas de ranking."

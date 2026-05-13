@@ -73,7 +73,7 @@ University teacher and Ph.D. candidate in Computer Science at UBA, with more tha
 
 
 #### Graduate Researcher
-**Applied Artificial Intelligence Lab (UBA-CONICET)** | *2018 - Present*
+**Applied Artificial Intelligence Lab (UBA-CONICET)** | *2018 - 2026*
 
 
 *   **Doctoral work:** computational models of eye movements and visual search in natural scenes under the supervision of Dr. Juan Kamienkowski.
@@ -113,7 +113,7 @@ University teacher and Ph.D. candidate in Computer Science at UBA, with more tha
 ## Education
 
 
-*   **Ph.D. in Computer Science** | UBA (2018 - Present)
+*   **Ph.D. in Computer Science** | UBA (2018 - 2026)
     * Doctoral thesis titled *Computational aspects of human vision: prediction of eye movements during visual search*. Expected defense between July and August 2026. Advisor: Dr. Juan Kamienkowski. Co-advisor: Dr. Guillermo Solovey.
 
 *   **B.Sc. in Mathematics** | UBA (2018)
