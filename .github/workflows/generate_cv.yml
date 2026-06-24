@@ -6,9 +6,13 @@ on:
       - main
     paths:
       - 'src/cv_data.yaml'
+      - 'src/publications.bib'
+      - 'src/profiles/**'
       - 'src/cv_template.md.j2'
+      - 'src/cv_industry_template.md.j2'
       - 'src/build_cv.py'
       - 'generate_pdf.sh'
+      - 'assets/disable_hyphens.tex'
       - '.github/workflows/generate_cv.yml'
   workflow_dispatch:
 
@@ -31,7 +35,7 @@ jobs:
       - name: Install Python dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install pyyaml jinja2
+          pip install -r requirements.txt
 
       - name: Install Pandoc
         run: |
