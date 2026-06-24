@@ -8,18 +8,19 @@ The active generation flow is Markdown -> Pandoc -> LaTeX -> PDF. The generated 
 
 ## Repository Structure
 
-- `src/cv_data.yaml`: **The source of truth.** All CV content resides here.
+- `src/cv_data.yaml`: **The source of truth** for shared facts: contact info, the full experience pool, education, skills, academic headers, and the shared industry section labels (`industry_headers`).
 - `src/publications.bib`: Source of truth for the publications list.
-- `src/cv_template.md.j2`: The Jinja2 template dictating the layout of the Markdown file.
-- `src/cv_industry_template.md.j2`: Alternative Jinja2 template for an industry-oriented Data Science / AI CV.
-- `src/build_cv.py`: Python script that reads the YAML data, loads `publications.bib`, and renders the template to produce the English and Spanish Markdown files.
-- `generate_pdf.sh`: Main executable script. Runs the Python build and then uses Pandoc to generate the final PDFs.
-- `src/CV_Gaston_Bujia.md`: Auto-generated Spanish Markdown output.
-- `src/english/CV_Gaston_Bujia_EN.md`: Auto-generated English Markdown output.
-- `src/CV_Gaston_Bujia_Industry.md`: Auto-generated Spanish Markdown output for the industry-oriented CV.
-- `src/english/CV_Gaston_Bujia_Industry_EN.md`: Auto-generated English Markdown output for the industry-oriented CV.
-- `output/`: Directory where the final PDF files are generated.
+- `src/profiles/*.yaml`: **One file per industry profile** (e.g. `data_science.yaml`). Each declares how that profile presents the shared data: its `slug` (used in the output filename), title, summary, which experience items to show and in what order (`experience_ids`), key projects, and the teaching/publications brief. Add a new profile by dropping a new file here — no code changes needed.
+- `src/cv_template.md.j2`: Jinja2 template for the academic CV.
+- `src/cv_industry_template.md.j2`: Jinja2 template shared by all industry profiles.
+- `src/build_cv.py`: Python script that reads the YAML data and `publications.bib`, discovers every profile, renders the Markdown files **and** invokes Pandoc to produce the PDFs. Use `--md-only` to skip the PDF step.
+- `generate_pdf.sh` / `generate_pdf.ps1`: Thin wrappers that check for `python`/`pandoc` and run `build_cv.py`.
+- `src/CV_Gaston_Bujia.md` / `src/english/CV_Gaston_Bujia_EN.md`: Auto-generated academic Markdown (ES / EN).
+- `src/CV_Gaston_Bujia_<slug>.md` / `src/english/CV_Gaston_Bujia_<slug>_EN.md`: Auto-generated industry Markdown per profile (ES / EN).
+- `output/`: Directory where the final PDF files are generated (`CV_Gaston_Bujia_EN/ES.pdf` and `CV_Gaston_Bujia_<slug>_EN/ES.pdf`).
 - `src/previous/`: Historical LaTeX material kept only as reference. It is not part of the current build.
+
+The generated Markdown files are build artifacts — never edit them by hand. To change content, edit `cv_data.yaml`, `publications.bib`, or the relevant profile, then re-run the build.
 
 ## Requirements
 
@@ -31,7 +32,7 @@ pip install -r requirements.txt
 
 ## Modifying the CV Data
 
-To update or add new items to the CV, you **do not** need to edit the separate Markdown files manually. 
+To update or add new items to the CV, you **do not** need to edit the separate Markdown files manually.
 
 1. Open `src/cv_data.yaml`.
 2. Locate the section you wish to update (e.g., `experience`, `education`, `skills`).
@@ -39,6 +40,17 @@ To update or add new items to the CV, you **do not** need to edit the separate M
 4. Save the file.
 
 Publications are maintained separately in `src/publications.bib` and injected automatically during the build.
+
+### Adding an industry profile
+
+To create a new tailored industry CV (EN + ES), copy an existing file in `src/profiles/` and adjust it:
+
+1. Set a unique `slug` (e.g. `MLEngineer`); it becomes the output filename `CV_Gaston_Bujia_<slug>_EN/ES.pdf`.
+2. Write the profile-specific `title` and `profile` summary in both languages.
+3. List the `experience_ids` to show, in the order you want them (they reference `experience[].id` in `cv_data.yaml`).
+4. Fill in `key_projects` and `teaching_publications_brief`.
+
+Re-run the build and the new profile's PDFs appear automatically — no code or script changes required.
 
 *Example item format:*
 ```yaml

@@ -25,7 +25,7 @@ target_reference: {{ industry.metadata.target_reference[lang] }}
 
 ## {{ industry.headers.experience[lang] }}
 
-{% set primary_experience_ids = ["professional_experience", "graduate_researcher"] %}
+{% set primary_experience_ids = industry.experience_ids %}
 {% for target_id in primary_experience_ids %}
 {% for job in experience if job.id == target_id %}
 {{ render_job(job, lang) }}
@@ -42,10 +42,10 @@ target_reference: {{ industry.metadata.target_reference[lang] }}
 
 ---
 
-## {{ industry.headers.skills[lang] }}
+## {{ industry.headers.education[lang] }}
 
-{% for group in industry.skill_groups %}
-*   **{{ group["label"][lang] }}:** {{ group["items"][lang] }}
+{% for edu in education.primary %}
+*   {{ edu.industry_brief[lang] if edu.industry_brief is defined else edu.title[lang] }}
 {% endfor %}
 
 ---

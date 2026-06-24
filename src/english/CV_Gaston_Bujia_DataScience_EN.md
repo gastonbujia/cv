@@ -36,11 +36,9 @@ Data Scientist with a strong background in mathematics, machine learning, and ap
 
 
 
-*   Designed and evaluated end-to-end ML pipelines for predicting sequential human behavior from real experimental datasets, combining deep learning, Bayesian modeling, CNN-based saliency models, and reproducible analysis workflows.
+*   Designed and evaluated end-to-end ML pipelines for predicting sequential human behavior from experimental datasets, combining deep learning, Bayesian modeling, CNN-based saliency models, and reproducible workflows.
 
-*   Contributed to **ViSioNS** (NeurIPS 2022), an open-source benchmark for evaluating computational models, analogous to model evaluation frameworks used in production ML.
-
-*   Developed **sIBS**, a probabilistic visual-search model combining Bayesian inference and saliency maps, published in *Frontiers in Systems Neuroscience*.
+*   Contributed to **ViSioNS** (NeurIPS 2022) and developed **sIBS**, published in *Frontiers in Systems Neuroscience*, for evaluating computational models of visual search.
 
 
 
@@ -54,19 +52,15 @@ Data Scientist with a strong background in mathematics, machine learning, and ap
 
 *   **ViSioNS (NeurIPS 2022):** Open-source benchmark for computational models of human visual search, adopted by the research community.
 
-*   **Recommendation systems (B.Sc. thesis):** Implemented Factorization Machines to address the cold-start problem in low-data recommendation scenarios.
-
 
 ---
 
-## Core Skills
+## Education
 
 
-*   **ML and data stack:** Python, NumPy, Pandas, scikit-learn, XGBoost, PyTorch, HuggingFace Transformers, Weights & Biases.
+*   **Ph.D. in Computer Science**, UBA (2018 - 2026). Computational modeling, Bayesian methods, visual search.
 
-*   **Modeling:** Predictive modeling, deep learning, NLP/audio models, survival analysis, Bayesian modeling, linear mixed-effects models.
-
-*   **Workflow:** Git/GitHub, Docker basics, Jupyter, Matplotlib, Seaborn, Plotly, technical writing, cross-functional collaboration.
+*   **B.Sc. in Mathematics**, UBA (2018). Recommendation systems, Factorization Machines, cold-start.
 
 
 ---

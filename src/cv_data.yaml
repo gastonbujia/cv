@@ -14,91 +14,34 @@ titles:
   en: "Ph.D. Candidate in Computer Science (UBA-CONICET) | University Teaching | Data Science and Machine Learning | Computational Neuroscience"
   es: "Doctorando en Ciencias de la Computación (UBA-CONICET) | Docencia Universitaria | Ciencia de Datos y Machine Learning | Neurociencia Computacional"
 
-industry:
-  metadata:
-    created: "2026-05-12"
-    target:
-      en: "Data Scientist / Machine Learning / Predictive Modeling"
-      es: "Data Scientist / Machine Learning / Modelado Predictivo"
-    target_reference:
-      en: "General industry profile with emphasis on clinical data science, deployed predictive models, and computational statistics."
-      es: "Perfil industrial general con énfasis en datos clínicos, modelos predictivos desplegados y estadística computacional."
-  title:
-    en: "Data Scientist | Machine Learning | Predictive Modeling | Python | Computational Statistics"
-    es: "Data Scientist | Machine Learning | Modelado Predictivo | Python | Estadística Computacional"
+# Shared presentational labels for ALL industry profiles.
+# Per-profile content (title, profile text, experience selection, key projects,
+# skill groups, teaching/publications brief) lives in src/profiles/*.yaml.
+industry_headers:
   profile:
-    en: "Data Scientist with a strong background in mathematics, machine learning, and applied research. I combine hands-on experience building and shipping predictive models, including a production-deployed clinical scoring system, with doctoral training in computational modeling, Bayesian methods, and deep learning. I am especially interested in roles where rigorous quantitative thinking, Python-based analysis, and clear communication can turn complex data into actionable decisions."
-    es: "Data Scientist con formación sólida en matemática, machine learning e investigación aplicada. Combino experiencia construyendo y desplegando modelos predictivos, incluido un sistema de scoring clínico en producción, con entrenamiento doctoral en modelado computacional, métodos bayesianos y deep learning. Me interesan especialmente roles donde el pensamiento cuantitativo riguroso, el análisis en Python y la comunicación clara permitan transformar datos complejos en decisiones accionables."
-  headers:
-    profile:
-      en: "Industry Profile"
-      es: "Perfil para Industria"
-    skills:
-      en: "Core Skills"
-      es: "Habilidades Clave"
-    experience:
-      en: "Relevant Experience"
-      es: "Experiencia Relevante"
-    teaching:
-      en: "Technical Teaching and Mentoring"
-      es: "Docencia Técnica y Mentoría"
-    projects:
-      en: "Key Projects"
-      es: "Proyectos Clave"
-    education:
-      en: "Education"
-      es: "Formación"
-    publications:
-      en: "Selected Research Output"
-      es: "Producción Seleccionada"
-    teaching_publications:
-      en: "Teaching & Publications"
-      es: "Docencia y Publicaciones"
-  skill_groups:
-    - label:
-        en: "ML and data stack"
-        es: "Stack ML y datos"
-      items:
-        en: "Python, NumPy, Pandas, scikit-learn, XGBoost, PyTorch, HuggingFace Transformers, Weights & Biases."
-        es: "Python, NumPy, Pandas, scikit-learn, XGBoost, PyTorch, HuggingFace Transformers, Weights & Biases."
-    - label:
-        en: "Modeling"
-        es: "Modelado"
-      items:
-        en: "Predictive modeling, deep learning, NLP/audio models, survival analysis, Bayesian modeling, linear mixed-effects models."
-        es: "Modelado predictivo, deep learning, modelos NLP/audio, análisis de supervivencia, modelado bayesiano, modelos lineales de efectos mixtos."
-    - label:
-        en: "Workflow"
-        es: "Workflow"
-      items:
-        en: "Git/GitHub, Docker basics, Jupyter, Matplotlib, Seaborn, Plotly, technical writing, cross-functional collaboration."
-        es: "Git/GitHub, bases de Docker, Jupyter, Matplotlib, Seaborn, Plotly, escritura técnica, colaboración interdisciplinaria."
-  key_projects:
-    - name:
-        en: "Dysarthria scoring model (Everything ALS)"
-        es: "Modelo de scoring de disartria (Everything ALS)"
-      description:
-        en: "Production-deployed clinical NLP/audio model built with Whisper, PyTorch, and scikit-learn."
-        es: "Modelo clínico NLP/audio desplegado en producción, construido con Whisper, PyTorch y scikit-learn."
-    - name:
-        en: "ViSioNS (NeurIPS 2022)"
-        es: "ViSioNS (NeurIPS 2022)"
-      description:
-        en: "Open-source benchmark for computational models of human visual search, adopted by the research community."
-        es: "Benchmark open source para modelos computacionales de búsqueda visual humana, adoptado por la comunidad de investigación."
-    - name:
-        en: "Recommendation systems (B.Sc. thesis)"
-        es: "Sistemas de recomendación (tesis de licenciatura)"
-      description:
-        en: "Implemented Factorization Machines to address the cold-start problem in low-data recommendation scenarios."
-        es: "Implementación de Factorization Machines para abordar el problema de cold-start en escenarios de recomendación con pocos datos."
-  teaching_publications_brief:
-    - en: "**Teaching:** Machine Learning and Computational Statistics at UBA; graduate ML teaching in the Data Mining and Knowledge Discovery master's program of the Department of Computer Science, FCEN-UBA."
-      es: "**Docencia:** Aprendizaje Automático y Estadística Computacional en UBA; docencia de posgrado en ML en la Maestría en Explotación de Datos y Descubrimiento del Conocimiento del Departamento de Computación de FCEN-UBA."
-    - en: "**Mentoring:** undergraduate thesis co-supervision and research mentorship in computational modeling and behavioral data."
-      es: "**Mentoría:** codirección de tesis y mentoría de investigación de grado en modelado computacional y datos conductuales."
-    - en: "**Publications:** Several publications in peer-reviewed scientific journals and conferences, including Scientific Reports, NeurIPS, and Frontiers in Systems Neuroscience."
-      es: "**Publicaciones:** varias publicaciones en revistas científicas y congresos con referato, incluyendo Scientific Reports, NeurIPS y Frontiers in Systems Neuroscience."
+    en: "Industry Profile"
+    es: "Perfil para Industria"
+  skills:
+    en: "Core Skills"
+    es: "Habilidades Clave"
+  experience:
+    en: "Relevant Experience"
+    es: "Experiencia Relevante"
+  teaching:
+    en: "Technical Teaching and Mentoring"
+    es: "Docencia Técnica y Mentoría"
+  projects:
+    en: "Key Projects"
+    es: "Proyectos Clave"
+  education:
+    en: "Education"
+    es: "Formación"
+  publications:
+    en: "Selected Research Output"
+    es: "Producción Seleccionada"
+  teaching_publications:
+    en: "Teaching & Publications"
+    es: "Docencia y Publicaciones"
 
 headers:
   profile:
@@ -252,13 +195,11 @@ experience:
         - "Intereses de investigación en Machine Learning, neurociencia computacional, eye tracking, deep learning y modelado bayesiano."
     industry_highlights:
       en:
-        - "Designed and evaluated end-to-end ML pipelines for predicting sequential human behavior from real experimental datasets, combining deep learning, Bayesian modeling, CNN-based saliency models, and reproducible analysis workflows."
-        - "Contributed to **ViSioNS** (NeurIPS 2022), an open-source benchmark for evaluating computational models, analogous to model evaluation frameworks used in production ML."
-        - "Developed **sIBS**, a probabilistic visual-search model combining Bayesian inference and saliency maps, published in *Frontiers in Systems Neuroscience*."
+        - "Designed and evaluated end-to-end ML pipelines for predicting sequential human behavior from experimental datasets, combining deep learning, Bayesian modeling, CNN-based saliency models, and reproducible workflows."
+        - "Contributed to **ViSioNS** (NeurIPS 2022) and developed **sIBS**, published in *Frontiers in Systems Neuroscience*, for evaluating computational models of visual search."
       es:
-        - "Diseño y evaluación de pipelines end-to-end de ML para predecir comportamiento humano secuencial sobre datos experimentales reales, combinando deep learning, modelado bayesiano, modelos de saliencia basados en CNNs y flujos reproducibles de análisis."
-        - "Contribución a **ViSioNS** (NeurIPS 2022), benchmark open source para evaluar modelos computacionales, análogo a frameworks de evaluación de modelos usados en ML productivo."
-        - "Desarrollo de **sIBS**, modelo probabilístico de búsqueda visual que combina inferencia bayesiana y mapas de saliencia, publicado en *Frontiers in Systems Neuroscience*."
+        - "Diseño y evaluación de pipelines end-to-end de ML para predecir comportamiento humano secuencial sobre datos experimentales, combinando deep learning, modelado bayesiano, modelos de saliencia basados en CNNs y flujos reproducibles."
+        - "Contribución a **ViSioNS** (NeurIPS 2022) y desarrollo de **sIBS**, publicado en *Frontiers in Systems Neuroscience*, para evaluar modelos computacionales de búsqueda visual."
 
   - id: "open_research_resources"
     section: "research"
@@ -311,8 +252,8 @@ experience:
         - "Developed a production-deployed dysarthria severity scoring model using Whisper, PyTorch, and scikit-learn, integrated into clinical trial workflows. Built predictive models using accelerometer and voice signals for ALS disease progression monitoring."
         - "Applied survival analysis and collaborated with clinical scientists to translate research questions into ML solutions for complex clinical datasets."
       es:
-        - "Desarrollo de un modelo de scoring de severidad de disartria desplegado en producción usando Whisper, PyTorch y scikit-learn, integrado a flujos de ensayos clínicos. Construcción de modelos predictivos usando señales de acelerómetro y voz para monitoreo de progresión de esclerosis lateral amiotrófica."
-        - "Aplicación de análisis de supervivencia y colaboración con científicos clínicos para traducir preguntas de investigación en soluciones de ML sobre datasets clínicos complejos."
+        - "Desarrollo de un modelo de scoring de disartria en producción usando Whisper, PyTorch y scikit-learn, integrado a ensayos clínicos. Construcción de modelos predictivos con señales de acelerómetro y voz para monitoreo de progresión de ELA."
+        - "Aplicación de análisis de supervivencia y colaboración con científicos clínicos para traducir preguntas de investigación en soluciones de ML."
 
 education:
   primary:

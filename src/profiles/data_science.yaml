@@ -1,0 +1,78 @@
+# Industry CV profile.
+# Each file in src/profiles/ generates one industry CV per language
+# (EN + ES). The `slug` defines the output filename:
+#   output/CV_Gaston_Bujia_<slug>_EN.pdf / _ES.pdf
+#
+# Shared facts (experience pool, education, publications) live in
+# src/cv_data.yaml. This file only declares HOW this profile presents them:
+# which experience items to show and in what order, plus the profile-specific
+# title, summary, key projects and teaching/publications brief.
+
+slug: "DataScience"
+
+metadata:
+  created: "2026-05-12"
+  target:
+    en: "Data Scientist / Machine Learning / Predictive Modeling"
+    es: "Data Scientist / Machine Learning / Modelado Predictivo"
+  target_reference:
+    en: "General industry profile with emphasis on clinical data science, deployed predictive models, and computational statistics."
+    es: "Perfil industrial general con énfasis en datos clínicos, modelos predictivos desplegados y estadística computacional."
+
+title:
+  en: "Data Scientist | Machine Learning | Predictive Modeling | Python | Computational Statistics"
+  es: "Data Scientist | Machine Learning | Modelado Predictivo | Python | Estadística Computacional"
+
+profile:
+  en: "Data Scientist with a strong background in mathematics, machine learning, and applied research. I combine hands-on experience building and shipping predictive models, including a production-deployed clinical scoring system, with doctoral training in computational modeling, Bayesian methods, and deep learning. I am especially interested in roles where rigorous quantitative thinking, Python-based analysis, and clear communication can turn complex data into actionable decisions."
+  es: "Data Scientist con formación en matemática, machine learning e investigación aplicada. Combino experiencia construyendo modelos predictivos, incluido un scoring clínico en producción, con entrenamiento doctoral en modelado computacional, métodos bayesianos y deep learning."
+
+# Experience items to render, in order. IDs reference entries in
+# src/cv_data.yaml -> experience[].id (industry_highlights are used when present).
+experience_ids:
+  - "professional_experience"
+  - "graduate_researcher"
+
+# NOTE: skill_groups is not currently rendered by cv_industry_template.md.j2.
+# Kept here so the data is ready if a "Core Skills" section is added.
+skill_groups:
+  - label:
+      en: "ML and data stack"
+      es: "Stack ML y datos"
+    items:
+      en: "Python, NumPy, Pandas, scikit-learn, XGBoost, PyTorch, HuggingFace Transformers, Weights & Biases."
+      es: "Python, NumPy, Pandas, scikit-learn, XGBoost, PyTorch, HuggingFace Transformers, Weights & Biases."
+  - label:
+      en: "Modeling"
+      es: "Modelado"
+    items:
+      en: "Predictive modeling, deep learning, NLP/audio models, survival analysis, Bayesian modeling, linear mixed-effects models."
+      es: "Modelado predictivo, deep learning, modelos NLP/audio, análisis de supervivencia, modelado bayesiano, modelos lineales de efectos mixtos."
+  - label:
+      en: "Workflow"
+      es: "Workflow"
+    items:
+      en: "Git/GitHub, Docker basics, Jupyter, Matplotlib, Seaborn, Plotly, technical writing, cross-functional collaboration."
+      es: "Git/GitHub, bases de Docker, Jupyter, Matplotlib, Seaborn, Plotly, escritura técnica, colaboración interdisciplinaria."
+
+key_projects:
+  - name:
+      en: "Dysarthria scoring model (Everything ALS)"
+      es: "Modelo de scoring de disartria (Everything ALS)"
+    description:
+      en: "Production-deployed clinical NLP/audio model built with Whisper, PyTorch, and scikit-learn."
+      es: "Modelo clínico NLP/audio desplegado en producción, construido con Whisper, PyTorch y scikit-learn."
+  - name:
+      en: "ViSioNS (NeurIPS 2022)"
+      es: "ViSioNS (NeurIPS 2022)"
+    description:
+      en: "Open-source benchmark for computational models of human visual search, adopted by the research community."
+      es: "Benchmark open source para modelos computacionales de búsqueda visual humana, adoptado por la comunidad de investigación."
+
+teaching_publications_brief:
+  - en: "**Teaching:** Machine Learning and Computational Statistics at UBA; graduate ML teaching in the Data Mining and Knowledge Discovery master's program of the Department of Computer Science, FCEN-UBA."
+    es: "**Docencia:** Aprendizaje Automático y Estadística Computacional en UBA; ML de posgrado en la Maestría en Explotación de Datos del Departamento de Computación, FCEN-UBA."
+  - en: "**Mentoring:** undergraduate thesis co-supervision and research mentorship in computational modeling and behavioral data."
+    es: "**Mentoría:** codirección de tesis e investigación de grado en modelado computacional y datos conductuales."
+  - en: "**Publications:** Several publications in peer-reviewed scientific journals and conferences, including Scientific Reports, NeurIPS, and Frontiers in Systems Neuroscience."
+    es: "**Publicaciones:** trabajos en revistas científicas y congresos con referato, incluyendo Scientific Reports, NeurIPS y Frontiers in Systems Neuroscience."

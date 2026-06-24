@@ -1,4 +1,7 @@
+import argparse
+import glob
 import os
+import subprocess
 import unicodedata
 
 import yaml
@@ -8,15 +11,18 @@ from pybtex.database import parse_file
 
 
 SRC_DIR = os.path.dirname(os.path.abspath(__file__))
+ROOT_DIR = os.path.dirname(SRC_DIR)
 DATA_FILE = os.path.join(SRC_DIR, "cv_data.yaml")
 PUBLICATIONS_FILE = os.path.join(SRC_DIR, "publications.bib")
+PROFILES_DIR = os.path.join(SRC_DIR, "profiles")
 ACADEMIC_TEMPLATE_FILE = "cv_template.md.j2"
 INDUSTRY_TEMPLATE_FILE = "cv_industry_template.md.j2"
 CV_BASENAME = "CV_Gaston_Bujia"
-OUT_ES = os.path.join(SRC_DIR, f"{CV_BASENAME}.md")
-OUT_EN = os.path.join(SRC_DIR, "english", f"{CV_BASENAME}_EN.md")
-OUT_INDUSTRY_ES = os.path.join(SRC_DIR, f"{CV_BASENAME}_Industry.md")
-OUT_INDUSTRY_EN = os.path.join(SRC_DIR, "english", f"{CV_BASENAME}_Industry_EN.md")
+ENGLISH_DIR = os.path.join(SRC_DIR, "english")
+OUTPUT_DIR = os.path.join(ROOT_DIR, "output")
+HEADER_TEX = os.path.join(ROOT_DIR, "assets", "disable_hyphens.tex")
+ACADEMIC_MARGIN = "1in"
+INDUSTRY_MARGIN = "0.75in"
 LATEX_TO_TEXT = LatexNodes2Text()
 EXCLUDED_PUBLICATION_TYPES = {"phdthesis", "mastersthesis"}
 
@@ -148,29 +154,119 @@ def build_publications():
     return [{"en": item["en"], "es": item["es"]} for item in publications]
 
 
-def build_cvs():
+def load_profiles():
+    """Load every industry profile defined in src/profiles/*.yaml."""
+    profiles = []
+    for path in sorted(glob.glob(os.path.join(PROFILES_DIR, "*.yaml"))):
+        with open(path, "r", encoding="utf-8") as f:
+            profile = yaml.safe_load(f)
+        if not profile or not profile.get("slug"):
+            raise ValueError(f"Profile '{path}' is missing a 'slug' field.")
+        profiles.append(profile)
+    return profiles
+
+
+def build_industry_context(profile, industry_headers):
+    """Merge shared industry headers with the per-profile content into the
+    `industry` object expected by cv_industry_template.md.j2."""
+    return {
+        "metadata": profile["metadata"],
+        "title": profile["title"],
+        "profile": profile["profile"],
+        "headers": industry_headers,
+        "experience_ids": profile["experience_ids"],
+        "skill_groups": profile.get("skill_groups", []),
+        "key_projects": profile["key_projects"],
+        "teaching_publications_brief": profile["teaching_publications_brief"],
+    }
+
+
+def collect_outputs(data):
+    """Build the full list of render jobs: academic (EN/ES) plus one industry
+    CV per language for every profile under src/profiles/."""
+    industry_headers = data.get("industry_headers", {})
+    outputs = []
+
+    for lang, suffix in (("es", ""), ("en", "_EN")):
+        md_dir = ENGLISH_DIR if lang == "en" else SRC_DIR
+        outputs.append({
+            "template": ACADEMIC_TEMPLATE_FILE,
+            "lang": lang,
+            "context": data,
+            "md_path": os.path.join(md_dir, f"{CV_BASENAME}{suffix}.md"),
+            "pdf_path": os.path.join(OUTPUT_DIR, f"{CV_BASENAME}_{lang.upper()}.pdf"),
+            "margin": ACADEMIC_MARGIN,
+            "label": f"{lang.upper()} academic CV",
+        })
+
+    for profile in load_profiles():
+        slug = profile["slug"]
+        industry = build_industry_context(profile, industry_headers)
+        context = {**data, "industry": industry}
+        for lang, suffix in (("es", ""), ("en", "_EN")):
+            md_dir = ENGLISH_DIR if lang == "en" else SRC_DIR
+            outputs.append({
+                "template": INDUSTRY_TEMPLATE_FILE,
+                "lang": lang,
+                "context": context,
+                "md_path": os.path.join(md_dir, f"{CV_BASENAME}_{slug}{suffix}.md"),
+                "pdf_path": os.path.join(OUTPUT_DIR, f"{CV_BASENAME}_{slug}_{lang.upper()}.pdf"),
+                "margin": INDUSTRY_MARGIN,
+                "label": f"{lang.upper()} industry CV ({slug})",
+            })
+
+    return outputs
+
+
+def render_markdown(env, job):
+    template = env.get_template(job["template"])
+    rendered = template.render(lang=job["lang"], **job["context"])
+    os.makedirs(os.path.dirname(job["md_path"]), exist_ok=True)
+    with open(job["md_path"], "w", encoding="utf-8") as f:
+        f.write(rendered)
+    print(f"Generated Markdown {job['label']}: {job['md_path']}")
+
+
+def render_pdf(job):
+    os.makedirs(OUTPUT_DIR, exist_ok=True)
+    subprocess.run(
+        [
+            "pandoc",
+            job["md_path"],
+            "-H", HEADER_TEX,
+            "-V", f"geometry:margin={job['margin']}",
+            "-o", job["pdf_path"],
+        ],
+        check=True,
+    )
+    print(f"Generated PDF {job['label']}: {job['pdf_path']}")
+
+
+def build_cvs(md_only=False):
     with open(DATA_FILE, "r", encoding="utf-8") as f:
         data = yaml.safe_load(f)
 
     data["publications"] = build_publications()
 
     env = Environment(loader=FileSystemLoader(SRC_DIR))
+    outputs = collect_outputs(data)
 
-    outputs = [
-        (ACADEMIC_TEMPLATE_FILE, "es", OUT_ES, "Spanish CV"),
-        (ACADEMIC_TEMPLATE_FILE, "en", OUT_EN, "English CV"),
-        (INDUSTRY_TEMPLATE_FILE, "es", OUT_INDUSTRY_ES, "Spanish industry CV"),
-        (INDUSTRY_TEMPLATE_FILE, "en", OUT_INDUSTRY_EN, "English industry CV"),
-    ]
+    for job in outputs:
+        render_markdown(env, job)
 
-    for template_file, lang, output_path, label in outputs:
-        template = env.get_template(template_file)
-        rendered = template.render(lang=lang, **data)
-        os.makedirs(os.path.dirname(output_path), exist_ok=True)
-        with open(output_path, "w", encoding="utf-8") as f:
-            f.write(rendered)
-        print(f"Generated {label}: {output_path}")
+    if md_only:
+        return
+
+    for job in outputs:
+        render_pdf(job)
 
 
 if __name__ == "__main__":
-    build_cvs()
+    parser = argparse.ArgumentParser(description="Build Gaston Bujia's CVs.")
+    parser.add_argument(
+        "--md-only",
+        action="store_true",
+        help="Only render the Markdown files; skip the Pandoc PDF step.",
+    )
+    args = parser.parse_args()
+    build_cvs(md_only=args.md_only)

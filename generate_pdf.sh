@@ -1,34 +1,18 @@
 #!/bin/bash
+set -euo pipefail
 
-CV_BASENAME="CV_Gaston_Bujia"
+# Thin wrapper: build_cv.py renders the Markdown files AND invokes Pandoc for
+# every CV (academic EN/ES plus one industry CV per language for each profile
+# in src/profiles/). To add a CV, drop a new file in src/profiles/ -- no script
+# changes needed.
 
-echo "Construyendo archivos Markdown desde cv_data.yaml..."
+ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+cd "$ROOT"
+
+command -v python3 >/dev/null 2>&1 || { echo "Missing required command: python3" >&2; exit 1; }
+command -v pandoc  >/dev/null 2>&1 || { echo "Missing required command: pandoc"  >&2; exit 1; }
+
+echo "Construyendo CVs (Markdown + PDF) desde cv_data.yaml y src/profiles/..."
 python3 src/build_cv.py
 
-echo "Generando CVs en progreso..."
-
-pandoc "src/${CV_BASENAME}.md" \
-    -H assets/disable_hyphens.tex \
-    -V geometry:margin=1in \
-    -o "output/${CV_BASENAME}_ES.pdf"
-
-pandoc "src/english/${CV_BASENAME}_EN.md" \
-    -H assets/disable_hyphens.tex \
-    -V geometry:margin=1in \
-    -o "output/${CV_BASENAME}_EN.pdf"
-
-pandoc "src/${CV_BASENAME}_Industry.md" \
-    -H assets/disable_hyphens.tex \
-    -V geometry:margin=0.75in \
-    -o "output/${CV_BASENAME}_Industry_ES.pdf"
-
-pandoc "src/english/${CV_BASENAME}_Industry_EN.md" \
-    -H assets/disable_hyphens.tex \
-    -V geometry:margin=0.75in \
-    -o "output/${CV_BASENAME}_Industry_EN.pdf"
-
-echo "PDFs generados exitosamente en la carpeta 'output/':"
-echo "  - output/${CV_BASENAME}_ES.pdf"
-echo "  - output/${CV_BASENAME}_EN.pdf"
-echo "  - output/${CV_BASENAME}_Industry_ES.pdf"
-echo "  - output/${CV_BASENAME}_Industry_EN.pdf"
+echo "PDFs generados exitosamente en la carpeta 'output/'."
